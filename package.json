@@ -1,22 +1,24 @@
 {
   "name": "campplannerbackend",
   "version": "1.0.0",
-  "description": "Backend for camp planner app",
+  "description": "CampPlannerBackend",
   "main": "app.js",
   "scripts": {
-    "test": ""
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/scottwalters1/CampPlannerBackend.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/scottwalters1/CampPlannerBackend/issues"
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "supertest": "^7.1.4"
   },
-  "homepage": "https://github.com/scottwalters1/CampPlannerBackend#readme",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.894.0",
+    "@aws-sdk/lib-dynamodb": "^3.894.0",
+    "express": "^5.1.0",
+    "uuid": "^13.0.0",
     "winston": "^3.17.0"
   }
 }
