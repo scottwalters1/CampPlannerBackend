@@ -1,0 +1,22 @@
+{
+  "name": "campplannerbackend",
+  "version": "1.0.0",
+  "description": "Backend for camp planner app",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottwalters1/CampPlannerBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottwalters1/CampPlannerBackend/issues"
+  },
+  "homepage": "https://github.com/scottwalters1/CampPlannerBackend#readme",
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
