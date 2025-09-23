@@ -1,0 +1,21 @@
+Post new user:
+    POST users/register
+    example body:
+        {
+        "username": "Charlie",
+        "password": "CharliesPassword"
+        }
+
+Get user by username:
+    GET users/<username>
+
+Delete user by username:
+    DELETE users/<username>
+
+Login user:
+    POST users/login
+    example body:
+        {
+        "username": "Charlie",
+        "password": "CharliesPassword"
+        }
