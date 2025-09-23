@@ -4,6 +4,7 @@
   "description": "Backend for camp planner app",
   "main": "app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": ""
   },
   "repository": {
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/scottwalters1/CampPlannerBackend#readme",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.894.0",
+    "@aws-sdk/lib-dynamodb": "^3.894.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "winston": "^3.17.0"
   }
 }
