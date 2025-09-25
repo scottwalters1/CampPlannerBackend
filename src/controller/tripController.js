@@ -20,7 +20,12 @@ router.get("/:recAreaName", async (req, res) => {
 })
 
 router.post("/trips", async (req, res) => {
-    const data = await ticketService.createTrip();
+    const data = await ticketService.postTrip(req.user, req.body);
+    if (data) {
+        res.status(201).json({message: `Trip created.`});
+    } else {
+        res.status(400).json({message: data});
+    }
 });
 
 router.put("/trips", async (req, res) => {

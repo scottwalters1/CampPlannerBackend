@@ -5,7 +5,13 @@ const { logger } = require("../util/logger");
 
 const TableName = process.env.TRIPS_TABLE || "Trips";
 
-async function createTrip(trip) {
+/*
+  Storing Trips as objects is not actually implemented but from what I read it seems pretty simple.
+  You just use JSON.stringify to store it as a string in the table, then JSON.parse to convert it back
+  to an object when retrieving it. An item in the table has a 400 kb size limit but I doubt you will reach it.
+*/ 
+
+async function postTrip(trip) {
   const command = new PutCommand({
     TableName: TRIPS_TABLE,
     Item: trip,
@@ -53,7 +59,7 @@ async function deleteTripByTripId(tripId) {
 }
 
 module.exports = {
-    createTrip,
+    postTrip,
     getTripByTripId,
     deleteTripByTripId
 };

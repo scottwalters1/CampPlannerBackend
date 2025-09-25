@@ -16,36 +16,53 @@ const { logger } = require("../util/logger");
         Activities: List(Activity) - Set times?
     }
 
+    or
+
+    Table:
+    user-id | trip-id | ... | tripObject
+
 */
 
-async function createTrip() {
-
+// Fair warning: None of this was intended to be working yet
+async function postTrip(user, trip) {
+    const data = await tripRepository.createTrip({
+        owner: user.username,
+        tripId: trip.name,
+        trip: trip
+    })
+    logger.info(`Creating new trip: ${JSON.stringify(data)}`);
+    return data;
 }
 
-async function updateTrip() {
-
+async function updateTrip(user, trip) {
+    // const data = await tripRepository.postTrip();
 }
 
-async function deleteTrip() {
-
+async function deleteTrip(user, trip) {
+    const data = await tripRepository.deleteTrip(user, trip)
+    logger.info(`Deleting trip: ${JSON.stringify(trip)}`);
+    return data;
 }
 
-async function getRecAreaByName(recAreaName) {
-    // Wrong
-    const response = await fetch(`https://ridb.recreation.gov/api/v1/recareas?query=${recAreaName}&apikey=${process.env.RIDB_API_KEY}&limit=50&offset=0&state=CO,VA,NC&activity=6,BOATING&latitude=-118.0186111&longitude=43.88037021&radius=9.75&lastupdated=10-01-2018`)
-    const data = await response.json();
-    if (response) {
-        logger.info(`Get Recreation Area by Name: ${recAreaName} returned: ${JSON.stringify(data)}`);
-        return response;
+async function getTripByTripId(tripId) {
+    const data = await tripRepository.getTripByTripId(tripId);
+    if (data) {
+        logger.info(`Trip found by id: ${JSON.stringify(data)}`);
+        return data;
     } else {
-        logger.info("Get Recreation Area by Name operation failed", JSON.stringify(data));
+        logger.info(`Trip not found by id: ${tripId}`);
         return null;
     }
 }
 
+async function getRecAreaByName(recAreaName) {
+    
+}
+
 module.exports = {
-    createTrip,
+    postTrip,
     updateTrip,
     deleteTrip,
+    getTripByTripId,
     getRecAreaByName
 };
