@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
+const {setToken} = require("../util/token");
 
 // create new user
 
@@ -37,7 +38,7 @@ router.post("/login", async (req, res, next) => {
         expiresIn: "60m",
       }
     );
-    // setToken(token);
+    setToken(token);
     res.status(202).json({
       token,
       message: `Logged in ${username}`,

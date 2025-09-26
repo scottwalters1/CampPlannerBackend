@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 
+const authenticateToken = require("./util/jwt")
 const { loggerMiddleware } = require("./util/logger");
 const userController = require("./controller/userController");
 const tripController = require("./controller/tripController");
@@ -11,7 +12,7 @@ app.use(express.json());
 app.use(loggerMiddleware);
 
 app.use("/users", userController);
-app.use("/trips", tripController);
+app.use("/trips", authenticateToken, tripController);
 app.use("/campgrounds", campgroundsController);
 
 

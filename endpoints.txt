@@ -2,8 +2,8 @@ Post new user:
     POST users/register
     example body:
         {
-        "username": "Charlie",
-        "password": "CharliesPassword"
+            "username": "Charlie",
+            "password": "CharliesPassword"
         }
 
 Get user by username:
@@ -16,6 +16,27 @@ Login user:
     POST users/login
     example body:
         {
-        "username": "Charlie",
-        "password": "CharliesPassword"
+            "username": "Charlie",
+            "password": "CharliesPassword"
         }
+
+Create trip:
+    POST trips/
+    example body:
+    {
+        "tripName" : "YosemiteTrip",
+        "ownerId": "fe63edb8-7a17-4834-979b-bf0991310f2f",
+        "description": "We're going to Yosemite!",
+        "recArea": "2991"
+    }
+
+Create trip date:
+    POST trips/:tripId
+    example body:
+    {
+        "date": "2025-07-03T00:00:00Z"
+    }
+
+Get trips by username:
+    GET trips/user/:username
+    
