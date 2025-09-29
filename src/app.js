@@ -1,11 +1,12 @@
 require("dotenv").config();
 const express = require("express");
-
+const cors = require("cors");
 const { loggerMiddleware } = require("./util/logger");
 const userController = require("./controller/userController");
 const tripController = require("./controller/tripController");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(loggerMiddleware);
 
