@@ -1,42 +1,56 @@
-Post new user:
-    POST users/register
-    example body:
+USERS
+
+    Post new user:
+        POST users/register
+        example body:
+            {
+                "username": "Charlie",
+                "password": "CharliesPassword"
+            }
+
+    Get user by username:
+        GET users/<username>
+
+    Delete user by username:
+        DELETE users/<username>
+
+    Login user:
+        POST users/login
+        example body:
+            {
+                "username": "Charlie",
+                "password": "CharliesPassword"
+            }
+
+TRIPS
+
+    Create trip:
+        POST trips/
+        example body:
         {
-            "username": "Charlie",
-            "password": "CharliesPassword"
+            "tripName" : "YosemiteTrip",
+            "ownerId": "fe63edb8-7a17-4834-979b-bf0991310f2f",
+            "description": "We're going to Yosemite!",
+            "recArea": "2991"
         }
 
-Get user by username:
-    GET users/<username>
-
-Delete user by username:
-    DELETE users/<username>
-
-Login user:
-    POST users/login
-    example body:
+    Create trip date:
+        POST trips/:tripId
+        example body:
         {
-            "username": "Charlie",
-            "password": "CharliesPassword"
+            "date": "2025-07-03T00:00:00Z"
         }
 
-Create trip:
-    POST trips/
-    example body:
-    {
-        "tripName" : "YosemiteTrip",
-        "ownerId": "fe63edb8-7a17-4834-979b-bf0991310f2f",
-        "description": "We're going to Yosemite!",
-        "recArea": "2991"
-    }
+    Get trips by username:
+        GET trips/user/:username
 
-Create trip date:
-    POST trips/:tripId
-    example body:
-    {
-        "date": "2025-07-03T00:00:00Z"
-    }
+RIDB
 
-Get trips by username:
-    GET trips/user/:username
-    
+    get rec areas by query:
+        GET ridb/recareas?query=<searchterm>
+
+        optional limit query param, default 50
+        GET ridb/recareas?query=<searchterm>&limit=<number>
+
+
+        
