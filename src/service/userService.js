@@ -13,8 +13,7 @@ async function register(user) {
     const hashed = await bcrypt.hash(user.password, saltRounds);
     const userToAdd = new User({
       username: user.username,
-      password: hashed,
-      role: user.role,
+      hashedPassword: hashed,
       createdAt: Date.now(),
     });
 
@@ -42,7 +41,7 @@ async function login(username, password) {
     throw new Error("Invalid credentials");
   }
 
-  const valid = await bcrypt.compare(password, user.password);
+  const valid = await bcrypt.compare(password, user.hashedPassword);
   if (!valid) {
     logger.warn("Invalid credentials");
     throw new Error("Invalid credentials");
