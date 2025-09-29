@@ -2,11 +2,14 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
-const authenticateToken = require("./util/jwt")
+const authenticateToken = require("./util/jwt");
 const { loggerMiddleware } = require("./util/logger");
+const { errorMiddleware } = require("./util/appError");
 const userController = require("./controller/userController");
 const tripController = require("./controller/tripController");
 const campgroundsController = require("./controller/campgroundsController");
+
+const RIDBController = require("./controller/RIDBController");
 
 const app = express();
 app.use(cors());
@@ -15,9 +18,9 @@ app.use(loggerMiddleware);
 
 app.use("/users", userController);
 app.use("/trips", authenticateToken, tripController);
-app.use("/campgrounds", campgroundsController);
+app.use("/ridb", RIDBController);
 
-
+app.use(errorMiddleware);
 
 // Only start server if NOT testing
 if (process.env.NODE_ENV !== "test") {

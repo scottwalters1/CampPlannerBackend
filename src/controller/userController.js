@@ -2,69 +2,60 @@ const express = require("express");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
-const {setToken} = require("../util/token");
+const { setToken } = require("../util/token");
 
-// create new user
-
-router.post("/register", validatePostUser, async (req, res, next) => {
-  const user = await userService.register(req.body);
-
-  if (user) {
+// Create new user
+router.post("/register", async (req, res, next) => {
+  try {
+    const user = await userService.register(req.body);
     res.status(201).json({ message: `Registered User ${user.username}` });
-  } else {
-    res.status(400).json({ message: "User not created" });
+  } catch (error) {
+    next(error);
   }
 });
 
-function validatePostUser(req, res, next) {
-  const user = req.body;
-  if (user.username && user.password) {
-    next();
-  } else {
-    res.status(400).json({ message: "invalid username or password" });
-  }
-}
-
+// Login
 router.post("/login", async (req, res, next) => {
-  const { username, password } = req.body;
-  const user = await userService.login(username, password);
-  if (user) {
+  try {
+    const { username, password } = req.body;
+    const user = await userService.login(username, password);
+
+    // Generate JWT
     const token = jwt.sign(
-      {
-        username: user.username,
-      },
+      { username: user.username },
       process.env.JWT_SECRET,
-      {
-        expiresIn: "60m",
-      }
+      { expiresIn: "60m" }
     );
+
+    // Set token in token.js - Find another way to manage this
     setToken(token);
+
     res.status(202).json({
       token,
       message: `Logged in ${username}`,
     });
-  } else {
-    res.status(400).json({ message: "Login failed"});
+  } catch (error) {
+    next(error);
   }
 });
 
-// get user by username
-router.get("/:username", async (req, res) => {
-  const user = await userService.getUserByUsername(req.params);
-  if (user) {
+// Get user by username
+router.get("/:username", async (req, res, next) => {
+  try {
+    const user = await userService.getUserByUsername(req.params.username);
     res.status(200).json(user);
-  } else {
-    res.status(404).json({ message: "User not found" });
+  } catch (error) {
+    next(error);
   }
 });
 
-// delete user by username
-router.delete("/:username", async (req, res) => {
-  const user = await userService.deleteUserByUsername(req.params);
-  if (user) {
+// Delete user by username
+router.delete("/:username", async (req, res, next) => {
+  try {
+    const user = await userService.deleteUserByUsername(req.params.username);
     res.status(200).json(user);
-  } else {
-    res.status(404).json({ message: "User not found" });
+  } catch (error) {
+    next(error);
   }
 });
 
