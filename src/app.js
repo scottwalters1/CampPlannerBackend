@@ -1,6 +1,11 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: "./.env",
+  override: true,
+});
 const express = require("express");
 const cors = require("cors");
+
+console.log("AWS keys from env:", process.env.AWS_ACCESS_KEY_ID, process.env.AWS_SECRET_ACCESS_KEY);
 
 const authenticateToken = require("./util/jwt");
 const { loggerMiddleware } = require("./util/logger");

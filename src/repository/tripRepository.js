@@ -10,9 +10,10 @@ const Trip = require("../model/Trip");
 const TripDate = require("../model/TripDate");
 
 const { logger } = require("../util/logger");
+const { Console } = require("winston/lib/winston/transports");
 
 // const TableName = process.env.TRIPS_TABLE || "Trips";
-const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner";
+const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
 async function createTrip({ ownerId, tripName, description, recArea }) {
   const tripId = uuidv4();
@@ -28,8 +29,8 @@ async function createTrip({ ownerId, tripName, description, recArea }) {
     PK: `TRIP#${trip.tripId}`,
     SK: "METADATA",
     ...trip,
-    GSI2PK: `USER#${trip.ownerId}`,
-    GSI2SK: `TRIP#${trip.tripId}`,
+    UserTripsIndexPK: `USER#${trip.ownerId}`,
+    UserTripsIndexSK: `TRIP#${trip.tripId}`,
   };
 
   await documentClient.send(
@@ -40,7 +41,6 @@ async function createTrip({ ownerId, tripName, description, recArea }) {
 
 // TODO: make it so logged in users can only create dates on their own trips
 async function createTripDate({ tripId, date }) {
-  console.log("tripid: ", tripId);
   const tripDate = new TripDate({
     tripId,
     date, // use UTC time
@@ -63,8 +63,8 @@ async function createTripDate({ tripId, date }) {
 async function getTripsByUserId(userId) {
   const command = new QueryCommand({
     TableName: TABLE_NAME,
-    IndexName: "GSI2",
-    KeyConditionExpression: "GSI2PK = :owner",
+    IndexName: "UserTripsIndex",
+    KeyConditionExpression: "UserTripsIndexPK = :owner",
     ExpressionAttributeValues: {
       ":owner": `USER#${userId}`,
     },
@@ -113,11 +113,3 @@ module.exports = {
   getTripByTripId,
   deleteTripByTripId,
 };
-
-// SK = METADATA → the "header" info (name, description, owner, etc.)
-
-// SK = DATE#2025-07-01 → a trip date
-
-// SK = GUEST#<userId> → a guest invited to the trip
-
-// SK = ACTIVITY#<activityId> → activities on that trip
