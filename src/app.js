@@ -5,25 +5,34 @@ require("dotenv").config({
 const express = require("express");
 const cors = require("cors");
 
-console.log("AWS keys from env:", process.env.AWS_ACCESS_KEY_ID, process.env.AWS_SECRET_ACCESS_KEY);
+console.log(
+  "AWS keys from env:",
+  process.env.AWS_ACCESS_KEY_ID,
+  process.env.AWS_SECRET_ACCESS_KEY
+);
 
 const authenticateToken = require("./util/jwt");
 const { loggerMiddleware } = require("./util/logger");
 const { errorMiddleware } = require("./util/appError");
 const userController = require("./controller/userController");
 const tripController = require("./controller/tripController");
-const campgroundsController = require("./controller/campgroundsController");
 
 const RIDBController = require("./controller/RIDBController");
 
 const app = express();
-app.use(cors());
+// app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:5173", // your React dev server URL
+    credentials: true, // allow cookies to be sent
+  })
+);
 app.use(express.json());
 app.use(loggerMiddleware);
 
 app.use("/users", userController);
 app.use("/trips", authenticateToken, tripController);
-app.use("/ridb", RIDBController);
+app.use("/ridb", authenticateToken, RIDBController);
 
 app.use(errorMiddleware);
 
