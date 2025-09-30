@@ -4,19 +4,6 @@ const bcrypt = require("bcryptjs");
 const User = require("../model/User");
 const { AppError } = require("../util/appError");
 
-/**
- * Registers a new user in the system.
- *
- * @param {Object} user - User data.
- * @param {string} user.username - The username for the new user.
- * @param {string} user.password - The password for the new user.
- * @returns {Object} The newly created user (without hashed password).
- * @throws {AppError} If the username is already registered.
- * @throws {AppError} If the username or password is invalid.
- * @throws {AppError} If the user could not be created in the database.
- * @example
- * const newUser = await register({ username: "alice", password: "secret123" });
- */
 async function register(user) {
   // Check if username already exists
   if (await userRepository.getUserByUsername(user.username)) {
@@ -50,14 +37,6 @@ async function register(user) {
   }
 }
 
-/**
- * Validates user input for username and password.
- *
- * @param {Object} user - User data.
- * @param {string} user.username
- * @param {string} user.password
- * @returns {boolean} True if valid, false otherwise.
- */
 function validateUser(user) {
   return (
     user.username &&
@@ -69,17 +48,6 @@ function validateUser(user) {
   );
 }
 
-/**
- * Authenticates a user by username and password.
- *
- * @param {string} username - Username to login.
- * @param {string} password - Password to login.
- * @returns {Object} The authenticated user object.
- * @throws {AppError} If username or password is missing.
- * @throws {AppError} If credentials are invalid.
- * @example
- * const user = await login("alice", "secret123");
- */
 async function login(username, password) {
   if (!username || !password) {
     logger.warn("Missing username or password");
@@ -102,16 +70,6 @@ async function login(username, password) {
   return user;
 }
 
-/**
- * Retrieves a user by username.
- *
- * @param {string} username - The username to search for.
- * @returns {Object} The user object (without hashed password).
- * @throws {AppError} If username is invalid.
- * @throws {AppError} If user is not found.
- * @example
- * const user = await getUserByUsername("alice");
- */
 async function getUserByUsername(username) {
   if (!username || typeof username !== "string") {
     logger.warn(`Invalid username: ${username}`);
@@ -129,27 +87,11 @@ async function getUserByUsername(username) {
   return sanitizeUser(user);
 }
 
-/**
- * Removes hashed password from a user object.
- *
- * @param {Object} user - The user object from the database.
- * @returns {Object} The sanitized user object without hashed password.
- */
 function sanitizeUser(user) {
   const { hashedPassword, ...safeUser } = user;
   return safeUser;
 }
 
-/**
- * Deletes a user by username.
- *
- * @param {string} username - The username of the user to delete.
- * @returns {Object} The deleted user object (without hashed password).
- * @throws {AppError} If username is invalid.
- * @throws {AppError} If user is not found.
- * @example
- * const deleted = await deleteUserByUsername("alice");
- */
 async function deleteUserByUsername(username) {
   if (!username || typeof username !== "string") {
     logger.warn(`Invalid username: ${username}`);

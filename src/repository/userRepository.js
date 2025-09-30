@@ -1,30 +1,37 @@
 const { PutCommand, GetCommand, QueryCommand, DeleteCommand } = require("@aws-sdk/lib-dynamodb");
 const documentClient = require("../db/dynamoClient");
 const { v4: uuidv4 } = require("uuid");
+const User = require("../model/User");
 
 const { logger } = require("../util/logger");
 
 // const USERS_TABLE = process.env.USERS_TABLE || "Users";
-const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner";
+const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
-async function createUser(user) {
+async function createUser(userData) {
+  
   try {
     const userId = uuidv4();
+    const user = new User({
+      username: userData.username,
+      hashedPassword: userData.hashedPassword,
+      createdAt: userData.createdAt,
+    });
+
     const item = {
       PK: `USER#${userId}`,
       SK: "PROFILE",
       username: user.username,
       hashedPassword: user.hashedPassword,
       createdAt: user.createdAt,
-      GSI1PK: `USERNAME#${user.username}`,
-      GSI1SK: "PROFILE",
+      UsernameIndexPK: `USERNAME#${user.username}`,
+      UsernameIndexSK: "PROFILE",
     };
 
     const command = new PutCommand({
       TableName: TABLE_NAME,
       Item: item,
     });
-
     await documentClient.send(command);
     return { ...item, id: userId };
   } catch (error) {
@@ -36,8 +43,8 @@ async function createUser(user) {
 async function getUserByUsername(username) {
   const command = new QueryCommand({
     TableName: TABLE_NAME,
-    IndexName: "GSI1",
-    KeyConditionExpression: "GSI1PK = :username AND GSI1SK = :profile",
+    IndexName: "UsernameIndex",
+    KeyConditionExpression: "UsernameIndexPK = :username AND UsernameIndexSK = :profile",
     ExpressionAttributeValues: {
       ":username": `USERNAME#${username}`,
       ":profile": "PROFILE",
