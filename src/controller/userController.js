@@ -4,6 +4,10 @@ const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
 const { setToken } = require("../util/token");
 
+app.get("/users/me", (req, res) => {
+  res.json({ username: req.user.username });
+});
+
 // Create new user
 router.post("/register", async (req, res, next) => {
   try {
