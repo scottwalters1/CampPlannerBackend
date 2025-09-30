@@ -19,7 +19,7 @@ router.post("/login", async (req, res, next) => {
   try {
     const { username, password } = req.body;
     const user = await userService.login(username, password);
-
+    console.log(user);
     // Generate JWT
     const token = jwt.sign(
       { username: user.username },
@@ -41,11 +41,19 @@ router.post("/login", async (req, res, next) => {
       sameSite: "Strict",
       maxAge: 60 * 60 * 1000,
     });
-    res.status(202).json({ message: `Logged in ${username}` });
+    res.status(202).json({
+      message: `Logged in ${username}`,
+      user: sanitizeUser(user),
+    });
   } catch (error) {
     next(error);
   }
 });
+
+function sanitizeUser(user) {
+  const { hashedPassword, ...safeUser } = user;
+  return safeUser;
+}
 
 // Get user by username
 router.get("/:username", async (req, res, next) => {

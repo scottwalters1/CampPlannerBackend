@@ -11,6 +11,7 @@ console.log(
   process.env.AWS_SECRET_ACCESS_KEY
 );
 
+const cookieParser = require("cookie-parser");
 const authenticateToken = require("./util/jwt");
 const { loggerMiddleware } = require("./util/logger");
 const { errorMiddleware } = require("./util/appError");
@@ -28,6 +29,7 @@ app.use(
   })
 );
 app.use(express.json());
+app.use(cookieParser());
 app.use(loggerMiddleware);
 
 app.use("/users", userController);
