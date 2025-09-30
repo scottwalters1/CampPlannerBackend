@@ -27,13 +27,21 @@ router.post("/login", async (req, res, next) => {
       { expiresIn: "60m" }
     );
 
-    // Set token in token.js - Find another way to manage this
+    // // Set token in token.js - Find another way to manage this
     setToken(token);
 
-    res.status(202).json({
-      token,
-      message: `Logged in ${username}`,
+    // res.status(202).json({
+    //   token,
+    //   message: `Logged in ${username}`,
+    // });
+
+    res.cookie("token", token, {
+      // figure these out in greater detail
+      httpOnly: true,
+      sameSite: "Strict",
+      maxAge: 60 * 60 * 1000,
     });
+    res.status(202).json({ message: `Logged in ${username}` });
   } catch (error) {
     next(error);
   }
