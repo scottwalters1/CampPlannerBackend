@@ -7,7 +7,7 @@ const {logger} = require("./logger");
 async function authenticateToken(req, res, next){
     // Authorization: "Bearer tokenstring"
 
-    const authHeader = req.headers["authorization"];
+    // const authHeader = req.headers["authorization"];
 
     // uncomment once frontend feeds in token
     // const token = authHeader && authHeader.split(" ")[1];

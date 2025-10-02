@@ -4,8 +4,13 @@ const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
 const { setToken } = require("../util/token");
 
-app.get("/users/me", (req, res) => {
-  res.json({ username: req.user.username });
+const authenticateToken = require("../util/jwt");
+
+router.get("/me", authenticateToken, (req, res) => {
+  res.json({
+    username: req.user.username,
+    userID: req.user.userID,
+  });
 });
 
 // Create new user
@@ -23,16 +28,18 @@ router.post("/login", async (req, res, next) => {
   try {
     const { username, password } = req.body;
     const user = await userService.login(username, password);
-    console.log(user);
     // Generate JWT
     const token = jwt.sign(
-      { username: user.username },
+      { 
+        username: user.username,
+        userID: user.PK, 
+      },
       process.env.JWT_SECRET,
       { expiresIn: "60m" }
     );
 
     // // Set token in token.js - Find another way to manage this
-    setToken(token);
+    // setToken(token);
 
     // res.status(202).json({
     //   token,
@@ -40,7 +47,6 @@ router.post("/login", async (req, res, next) => {
     // });
 
     res.cookie("token", token, {
-      // figure these out in greater detail
       httpOnly: true,
       sameSite: "Strict",
       maxAge: 60 * 60 * 1000,
