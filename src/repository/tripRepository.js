@@ -2,7 +2,7 @@ const {
   PutCommand,
   GetCommand,
   DeleteCommand,
-  QueryCommand
+  QueryCommand,
 } = require("@aws-sdk/lib-dynamodb");
 const documentClient = require("../db/dynamoClient");
 const { v4: uuidv4 } = require("uuid");
@@ -15,14 +15,55 @@ const { Console } = require("winston/lib/winston/transports");
 // const TableName = process.env.TRIPS_TABLE || "Trips";
 const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
-async function createTrip({ ownerId, tripName, description, recArea }) {
+// async function createTrip({ ownerId, tripName, description, recArea }) {
+//   const tripId = uuidv4();
+//   const trip = new Trip({
+//     tripId,
+//     ownerId,
+//     tripName,
+//     description,
+//     recArea,
+//   });
+
+//   const item = {
+//     PK: `TRIP#${trip.tripId}`,
+//     SK: "METADATA",
+//     ...trip,
+//     UserTripsIndexPK: `USER#${trip.ownerId}`,
+//     UserTripsIndexSK: `TRIP#${trip.tripId}`,
+//   };
+
+//   await documentClient.send(
+//     new PutCommand({ TableName: TABLE_NAME, Item: item })
+//   );
+//   return item;
+// }
+
+async function createTrip({
+  ownerId,
+  tripName,
+  description,
+  activities = [],
+  recName,
+  recAreaId,
+  invitedUsers = [],
+  startDate,
+  endDate,
+}) {
   const tripId = uuidv4();
+
   const trip = new Trip({
     tripId,
-    ownerId,
     tripName,
     description,
-    recArea,
+    activities,
+    recName,
+    recAreaId,
+    ownerId,
+    invitedUsers,
+    startDate,
+    endDate,
+    createdAt: Date.now(),
   });
 
   const item = {
@@ -36,6 +77,7 @@ async function createTrip({ ownerId, tripName, description, recArea }) {
   await documentClient.send(
     new PutCommand({ TableName: TABLE_NAME, Item: item })
   );
+
   return item;
 }
 
@@ -58,7 +100,6 @@ async function createTripDate({ tripId, date }) {
 
   return item;
 }
-
 
 async function getTripsByUserId(userId) {
   const command = new QueryCommand({
