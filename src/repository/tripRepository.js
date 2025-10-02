@@ -15,30 +15,6 @@ const { Console } = require("winston/lib/winston/transports");
 // const TableName = process.env.TRIPS_TABLE || "Trips";
 const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
-// async function createTrip({ ownerId, tripName, description, recArea }) {
-//   const tripId = uuidv4();
-//   const trip = new Trip({
-//     tripId,
-//     ownerId,
-//     tripName,
-//     description,
-//     recArea,
-//   });
-
-//   const item = {
-//     PK: `TRIP#${trip.tripId}`,
-//     SK: "METADATA",
-//     ...trip,
-//     UserTripsIndexPK: `USER#${trip.ownerId}`,
-//     UserTripsIndexSK: `TRIP#${trip.tripId}`,
-//   };
-
-//   await documentClient.send(
-//     new PutCommand({ TableName: TABLE_NAME, Item: item })
-//   );
-//   return item;
-// }
-
 async function createTrip({
   ownerId,
   tripName,
