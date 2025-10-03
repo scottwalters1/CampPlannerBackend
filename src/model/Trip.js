@@ -4,7 +4,7 @@ class Trip {
     tripName,
     description,
     activities,
-    recName,
+    recAreaName,
     recAreaId,
     ownerId,
     invitedUsers,
@@ -16,7 +16,7 @@ class Trip {
     this.tripName = tripName;
     this.description = description;
     this.activities = activities || [];
-    this.recName = recName;
+    this.recAreaName = recAreaName;
     this.recAreaId = recAreaId;
     this.ownerId = ownerId;
     this.invitedUsers = invitedUsers;

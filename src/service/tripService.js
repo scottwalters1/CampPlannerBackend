@@ -1,20 +1,3 @@
-/*
-    Trip {
-        TripID: UUID 
-        Owner: UUID 
-        Description: string (?)
-        Guests: List(Users)
-        RecArea: Number
-    }
-
-    tripDate {
-        Date: DateTime
-        Activities: List(Activity) - Set times?
-        CampsiteID: String
-    }
-
-*/
-
 const tripRepository = require("../repository/tripRepository");
 const userRepository = require("../repository/userRepository");
 const { logger } = require("../util/logger");

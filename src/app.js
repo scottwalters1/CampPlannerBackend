@@ -5,11 +5,11 @@ require("dotenv").config({
 const express = require("express");
 const cors = require("cors");
 
-console.log(
-  "AWS keys from env:",
-  process.env.AWS_ACCESS_KEY_ID,
-  process.env.AWS_SECRET_ACCESS_KEY
-);
+// console.log(
+//   "AWS keys from env:",
+//   process.env.AWS_ACCESS_KEY_ID,
+//   process.env.AWS_SECRET_ACCESS_KEY
+// );
 
 const cookieParser = require("cookie-parser");
 const authenticateToken = require("./util/jwt");
@@ -24,8 +24,8 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "http://localhost:5173", // your React dev server URL
-    credentials: true, // allow cookies to be sent
+    origin: "http://localhost:5173", 
+    credentials: true, 
   })
 );
 app.use(express.json());
