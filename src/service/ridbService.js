@@ -32,6 +32,39 @@ async function getRecAreasByQuery(query) {
   }));
 }
 
+async function getActivitiesByRecArea(params) {
+  const recAreaID = params.recAreaID;
+
+  if (!recAreaID) {
+    throw new AppError("recAreaID is required", 400);
+  }
+
+  const url = `${RIDB_BASE_URL}/recareas/${recAreaID}/activities`;
+
+  let res;
+  try {
+    res = await fetch(url, {
+      headers: { apikey: RIDB_API_KEY },
+    });
+  } catch (err) {
+    logger.error("Failed to fetch from RIDB", err);
+    throw new AppError("Failed to fetch from RIDB", 500);
+  }
+
+  if (!res.ok) {
+    logger.error(`RIDB API returned ${res.status}`);
+    throw new AppError(`RIDB API error: ${res.statusText}`, 500);
+  }
+
+  const data = await res.json();
+
+  return data.RECDATA.map((activity) => ({
+    ActivityName: activity.ActivityName,
+    // ActivityID: activity.ActivityID,
+  }));
+}
+
 module.exports = {
   getRecAreasByQuery,
+  getActivitiesByRecArea
 };
