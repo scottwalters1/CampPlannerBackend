@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
-const { setToken } = require("../util/token");
 
 const authenticateToken = require("../util/jwt");
 

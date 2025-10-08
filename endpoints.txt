@@ -51,6 +51,12 @@ RIDB
 
         optional limit query param, default 50
         GET ridb/recareas?query=<searchterm>&limit=<number>
+    
+    get activities by rec area:
+        GET ridb/recareas/:recAreaId/activities
+
+    get campgrounds by rec area:
+        GET ridb/recareas/:recAreaId/activities
 
 
         

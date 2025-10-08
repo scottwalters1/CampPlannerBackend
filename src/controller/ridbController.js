@@ -23,4 +23,14 @@ router.get("/recareas/:recAreaID/activities", async (req, res, next) => {
   }
 });
 
+// Get campgrounds by rec area id
+router.get("/recareas/:recAreaID/campgrounds", async (req, res, next) => {
+  try {
+    const campgrounds = await ridbService.getCampgroundsByRecArea(req.params);
+    res.status(200).json(campgrounds);
+  } catch (error) {
+    next(error)
+  }
+});
+
 module.exports = router;
