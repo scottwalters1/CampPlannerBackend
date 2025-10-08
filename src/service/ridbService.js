@@ -64,7 +64,45 @@ async function getActivitiesByRecArea(params) {
   }));
 }
 
+async function getCampgroundsByRecArea(params) {
+  const recAreaID = params.recAreaID;
+
+  if (!recAreaID) {
+    throw new AppError("recAreaID is required", 400);
+  }
+
+  const url = `${RIDB_BASE_URL}/recareas/${recAreaID}/facilities`;
+
+  let res;
+  try {
+    res = await fetch(url, {
+      headers: { apikey: RIDB_API_KEY },
+    });
+  } catch (err) {
+    logger.error("Failed to fetch from RIDB", err);
+    throw new AppError("Failed to fetch from RIDB", 500);
+  }
+
+  if (!res.ok) {
+    logger.error(`RIDB API returned ${res.status}`);
+    throw new AppError(`RIDB API error: ${res.statusText}`, 500);
+  }
+
+  const data = await res.json();
+
+  const campgrounds = data.RECDATA.filter(
+    (facility) => facility.FacilityTypeDescription === "Campground"
+  );
+
+
+  return campgrounds.map((campground) => ({
+    FacilityName: campground.FacilityName,
+    FacilityID: campground.FacilityID,
+  }));
+}
+
 module.exports = {
   getRecAreasByQuery,
-  getActivitiesByRecArea
+  getActivitiesByRecArea,
+  getCampgroundsByRecArea
 };

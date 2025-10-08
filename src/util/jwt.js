@@ -1,5 +1,4 @@
 const jwt = require("jsonwebtoken");
-const { getToken } = require("../util/token");
 
 const {logger} = require("./logger");
 
