@@ -3,6 +3,7 @@ const {
   GetCommand,
   DeleteCommand,
   QueryCommand,
+  UpdateCommand,
 } = require("@aws-sdk/lib-dynamodb");
 const documentClient = require("../db/dynamoClient");
 const { v4: uuidv4 } = require("uuid");
@@ -79,26 +80,6 @@ async function createTrip({
       })
     );
   }
-
-  return item;
-}
-
-// TODO: make it so logged in users can only create dates on their own trips
-async function createTripDate({ tripId, date }) {
-  const tripDate = new TripDate({
-    tripId,
-    date,
-  });
-
-  const item = {
-    PK: `TRIP#${tripDate.tripId}`,
-    SK: `DATE#${tripDate.date}`,
-    ...tripDate,
-  };
-
-  await documentClient.send(
-    new PutCommand({ TableName: TABLE_NAME, Item: item })
-  );
 
   return item;
 }
@@ -187,11 +168,54 @@ async function findTripsByInvitedUser(userID) {
   return trips;
 }
 
+async function findInvitesByUser(userID) {
+  const normalizedUserID = userID.startsWith("USER#")
+    ? userID
+    : `USER#${userID}`;
+
+  const command = new QueryCommand({
+    TableName: TABLE_NAME,
+    IndexName: "UserInvitesIndex",
+    KeyConditionExpression: "UserInvitesIndexPK = :userID",
+    ExpressionAttributeValues: {
+      ":userID": normalizedUserID,
+    },
+  });
+
+  const response = await documentClient.send(command);
+  return response.Items || [];
+}
+
+async function updateInvite(userID, tripId, newStatus) {
+
+  const normalizedUserID = userID.startsWith("USER#")
+    ? userID
+    : `USER#${userID}`;
+
+  const command = new UpdateCommand({
+    TableName: TABLE_NAME,
+    Key: {
+      PK: "TRIP#" + tripId,
+      SK: "INVITE#" + normalizedUserID,
+    },
+    UpdateExpression: "SET inviteStatus = :newStatus",
+    ExpressionAttributeValues: {
+      ":newStatus": newStatus,
+    },
+
+    ReturnValues: "ALL_NEW",
+  });
+
+  const response = await documentClient.send(command);
+  return response.Attributes;
+}
+
 module.exports = {
   createTrip,
-  createTripDate,
   getTripsByUserId,
   getTripByTripId,
   deleteTripByTripId,
   findTripsByInvitedUser,
+  findInvitesByUser,
+  updateInvite,
 };
