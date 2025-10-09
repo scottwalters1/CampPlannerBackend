@@ -14,16 +14,6 @@ async function createTrip(tripData) {
   return trip;
 }
 
-async function createTripDate(tripData) {
-  const tripDate = await tripRepository.createTripDate(tripData);
-  if (!tripDate) {
-    logger.warn(`Trip date could not be created for trip ${tripData.tripId}`);
-    throw new AppError("Trip date could not be created", 500);
-  }
-  logger.info(`Created trip date for trip ${tripData.tripId}`);
-  return tripDate;
-}
-
 async function getTripsByUsername(username) {
   const user = await userRepository.getUserByUsername(username);
   if (!user) {
@@ -44,9 +34,28 @@ async function getInvitedTrips(token) {
   return trips;
 }
 
+async function getInvites(token) {
+  const user = await decodeJWT(token);
+  // console.log(user);
+  const invites = await tripRepository.findInvitesByUser(user.userID);
+  return invites;
+}
+
+async function updateInvite(token, tripId, body) {
+  const user = await decodeJWT(token);
+  const newStatus = body.status;
+  if (!["Accepted", "Denied", "Pending"].includes(newStatus)) {
+    logger.warn(`Invalid new status: ${newStatus}`);
+    throw new AppError("Invalid new status", 404);
+  }
+  const data = tripRepository.updateInvite(user.userID, tripId, newStatus);
+  return data;
+}
+
 module.exports = {
   createTrip,
-  createTripDate,
   getTripsByUsername,
-  getInvitedTrips
+  getInvitedTrips,
+  getInvites,
+  updateInvite
 };

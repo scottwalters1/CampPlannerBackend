@@ -2,17 +2,6 @@ const express = require("express");
 const router = express.Router();
 const tripService = require("../service/tripService");
 
-// Create Trip Date
-router.post("/:tripId", async (req, res, next) => {
-  try {
-    const tripId = req.params.tripId;
-    const data = await tripService.createTripDate({ ...req.body, tripId });
-    res.status(201).json(data);
-  } catch (error) {
-    next(error);
-  }
-});
-
 // Create Trip
 router.post("/", async (req, res, next) => {
   try {
@@ -40,6 +29,27 @@ router.get("/invitedtrips", async (req, res, next) => {
     const token = req.cookies.token;
     const trips = await tripService.getInvitedTrips(token);
     res.status(200).json(trips);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.get("/invites", async (req, res, next) => {
+  try {
+    const token = req.cookies.token;
+    const invites = await tripService.getInvites(token);
+    res.status(200).json(invites);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.patch("/invites/:tripId", async (req, res, next) => {
+  try {
+    const tripId = req.params.tripId;
+    const token = req.cookies.token;
+    const data = await tripService.updateInvite(token, tripId, req.body);
+    res.status(200).json(data);
   } catch (error) {
     next(error);
   }
