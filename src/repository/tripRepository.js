@@ -54,6 +54,32 @@ async function createTrip({
     new PutCommand({ TableName: TABLE_NAME, Item: item })
   );
 
+  for (const user of invitedUsers) {
+    const normalizedUserId = user.userID.startsWith("USER#")
+      ? user.userID
+      : `USER#${user.userID}`;
+
+    const inviteItem = {
+      PK: `TRIP#${tripId}`,
+      SK: `INVITE#${normalizedUserId}`,
+      UserInvitesIndexPK: normalizedUserId,
+      UserInvitesIndexSK: `TRIP#${tripId}`,
+      tripId,
+      tripName,
+      recAreaName,
+      inviteStatus: user.inviteStatus,
+      username: user.username,
+      createdAt: Date.now(),
+    };
+
+    await documentClient.send(
+      new PutCommand({
+        TableName: TABLE_NAME,
+        Item: inviteItem,
+      })
+    );
+  }
+
   return item;
 }
 
@@ -61,7 +87,7 @@ async function createTrip({
 async function createTripDate({ tripId, date }) {
   const tripDate = new TripDate({
     tripId,
-    date, // use UTC time
+    date,
   });
 
   const item = {
@@ -111,7 +137,7 @@ async function deleteTripByTripId(tripId) {
   const command = new DeleteCommand({
     TableName: TABLE_NAME,
     Key: { tripId },
-    ReturnValues: "ALL_OLD", // return the deleted item
+    ReturnValues: "ALL_OLD",
   });
 
   try {
@@ -123,10 +149,49 @@ async function deleteTripByTripId(tripId) {
   }
 }
 
+async function findTripsByInvitedUser(userID) {
+  const inviteResponse = await documentClient.send(
+    new QueryCommand({
+      TableName: TABLE_NAME,
+      IndexName: "UserInvitesIndex",
+      KeyConditionExpression: "UserInvitesIndexPK = :userID",
+      ExpressionAttributeValues: {
+        ":userID": userID,
+      },
+    })
+  );
+
+  const invites = inviteResponse.Items || [];
+
+  const trips = [];
+  for (const invite of invites) {
+    const tripResponse = await documentClient.send(
+      new QueryCommand({
+        TableName: TABLE_NAME,
+        KeyConditionExpression: "PK = :tripPK AND SK = :metadata",
+        ExpressionAttributeValues: {
+          ":tripPK": `TRIP#${invite.tripId}`,
+          ":metadata": "METADATA",
+        },
+      })
+    );
+
+    if (tripResponse.Items && tripResponse.Items.length > 0) {
+      const trip = tripResponse.Items[0];
+      trip.inviteStatus = invite.inviteStatus;
+      trip.invitedUsername = invite.username;
+      trips.push(trip);
+    }
+  }
+
+  return trips;
+}
+
 module.exports = {
   createTrip,
   createTripDate,
   getTripsByUserId,
   getTripByTripId,
   deleteTripByTripId,
+  findTripsByInvitedUser,
 };

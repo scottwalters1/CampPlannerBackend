@@ -3,7 +3,7 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const userService = require("../service/userService");
 
-const authenticateToken = require("../util/jwt");
+const { authenticateToken } = require("../util/jwt");
 
 router.get("/me", authenticateToken, (req, res) => {
   res.json({
@@ -29,9 +29,9 @@ router.post("/login", async (req, res, next) => {
     const user = await userService.login(username, password);
     // Generate JWT
     const token = jwt.sign(
-      { 
+      {
         username: user.username,
-        userID: user.PK, 
+        userID: user.PK,
       },
       process.env.JWT_SECRET,
       { expiresIn: "60m" }

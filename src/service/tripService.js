@@ -2,6 +2,7 @@ const tripRepository = require("../repository/tripRepository");
 const userRepository = require("../repository/userRepository");
 const { logger } = require("../util/logger");
 const { AppError } = require("../util/appError");
+const { decodeJWT } = require("../util/jwt");
 
 async function createTrip(tripData) {
   const trip = await tripRepository.createTrip(tripData);
@@ -36,8 +37,16 @@ async function getTripsByUsername(username) {
   return trips;
 }
 
+async function getInvitedTrips(token) {
+  const user = await decodeJWT(token);
+  // console.log(user);
+  const trips = await tripRepository.findTripsByInvitedUser(user.userID);
+  return trips;
+}
+
 module.exports = {
   createTrip,
   createTripDate,
   getTripsByUsername,
+  getInvitedTrips
 };

@@ -35,4 +35,16 @@ router.get("/user/:username", async (req, res, next) => {
   }
 });
 
+router.get("/invitedtrips", async (req, res, next) => {
+  try {
+    const token = req.cookies.token;
+    const trips = await tripService.getInvitedTrips(token);
+    res.status(200).json(trips);
+  } catch (error) {
+    next(error);
+  }
+});
+
+
+
 module.exports = router;
