@@ -14,10 +14,10 @@ router.post("/", async (req, res, next) => {
 
 // Get Trips By Username
 // TODO: change to get username from logged in user
-router.get("/user/:username", async (req, res, next) => {
+router.get("/", async (req, res, next) => {
   try {
-    const username = req.params.username;
-    const trips = await tripService.getTripsByUsername(username);
+    const token = req.cookies.token;
+    const trips = await tripService.getTripsByUsername(token);
     res.status(200).json(trips);
   } catch (error) {
     next(error);

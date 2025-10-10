@@ -14,16 +14,14 @@ async function createTrip(tripData) {
   return trip;
 }
 
-async function getTripsByUsername(username) {
-  const user = await userRepository.getUserByUsername(username);
-  if (!user) {
-    logger.warn(`User not found: ${username}`);
-    throw new AppError("User not found", 404);
-  }
+async function getTripsByUsername(token) {
+  const user = await decodeJWT(token);
+  const username = user.username;
+  const userID = user.userID.split("#")[1];
+  console.log(userID);
 
-  const userId = user.PK.split("#")[1];
-  logger.info(`Fetching trips for user: ${username} (${userId})`);
-  const trips = await tripRepository.getTripsByUserId(userId);
+  logger.info(`Fetching trips for user: ${username} (${userID})`);
+  const trips = await tripRepository.getTripsByUserId(userID);
   return trips;
 }
 

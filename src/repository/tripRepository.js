@@ -29,6 +29,10 @@ async function createTrip({
 }) {
   const tripId = uuidv4();
 
+  const normalizedOwnerId = ownerId.startsWith("USER#")
+    ? ownerId
+    : `USER#${ownerId}`;
+
   const trip = new Trip({
     tripId,
     tripName,
@@ -36,7 +40,7 @@ async function createTrip({
     tripActivities,
     recAreaName,
     recAreaId,
-    ownerId,
+    ownerId: normalizedOwnerId,
     invitedUsers,
     startDate,
     endDate,
@@ -47,7 +51,7 @@ async function createTrip({
     PK: `TRIP#${trip.tripId}`,
     SK: "METADATA",
     ...trip,
-    UserTripsIndexPK: `USER#${trip.ownerId}`,
+    UserTripsIndexPK: normalizedOwnerId,
     UserTripsIndexSK: `TRIP#${trip.tripId}`,
   };
 
@@ -187,7 +191,6 @@ async function findInvitesByUser(userID) {
 }
 
 async function updateInvite(userID, tripId, newStatus) {
-
   const normalizedUserID = userID.startsWith("USER#")
     ? userID
     : `USER#${userID}`;
