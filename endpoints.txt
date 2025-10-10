@@ -41,8 +41,8 @@ TRIPS
             "date": "2025-07-03T00:00:00Z"
         }
 
-    Get trips by username:
-        GET trips/user/:username
+    Get trips by logged in user:
+        GET trips/
 
 RIDB
 
