@@ -183,8 +183,10 @@ async function findInvitesByUser(userID) {
     TableName: TABLE_NAME,
     IndexName: "UserInvitesIndex",
     KeyConditionExpression: "UserInvitesIndexPK = :userID",
+    FilterExpression: "inviteStatus = :pending",
     ExpressionAttributeValues: {
       ":userID": normalizedUserID,
+      ":pending": "Pending",
     },
   });
 

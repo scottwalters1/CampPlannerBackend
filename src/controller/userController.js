@@ -65,9 +65,19 @@ function sanitizeUser(user) {
 }
 
 // Get user by username
-router.get("/:username", async (req, res, next) => {
+router.get("/username/:username", async (req, res, next) => {
   try {
     const user = await userService.getUserByUsername(req.params.username);
+    res.status(200).json(user);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.get("/id/:userId", async (req, res, next) => {
+  try {
+    const decodedId = decodeURIComponent(req.params.userId); // decode safely
+    const user = await userService.getUserByUserId(decodedId);
     res.status(200).json(user);
   } catch (error) {
     next(error);
@@ -83,5 +93,7 @@ router.delete("/:username", async (req, res, next) => {
     next(error);
   }
 });
+
+// get username by id
 
 module.exports = router;
