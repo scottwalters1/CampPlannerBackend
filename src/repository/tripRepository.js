@@ -71,6 +71,7 @@ async function createTrip({
       SK: `INVITE#${normalizedUserId}`,
       UserInvitesIndexPK: normalizedUserId,
       UserInvitesIndexSK: `TRIP#${tripId}`,
+      ownerId,
       tripId,
       tripName,
       recAreaName,
