@@ -21,6 +21,7 @@ async function createTrip({
   tripName,
   tripDescription,
   tripActivities = [],
+  campGrounds = [], 
   recAreaName,
   recAreaId,
   invitedUsers = [],
@@ -38,6 +39,7 @@ async function createTrip({
     tripName,
     tripDescription,
     tripActivities,
+    campGrounds,
     recAreaName,
     recAreaId,
     ownerId: normalizedOwnerId,
@@ -181,8 +183,10 @@ async function findInvitesByUser(userID) {
     TableName: TABLE_NAME,
     IndexName: "UserInvitesIndex",
     KeyConditionExpression: "UserInvitesIndexPK = :userID",
+    FilterExpression: "inviteStatus = :pending",
     ExpressionAttributeValues: {
       ":userID": normalizedUserID,
+      ":pending": "Pending",
     },
   });
 

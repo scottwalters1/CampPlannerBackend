@@ -1,28 +1,60 @@
+// class Trip {
+//   constructor({
+//     tripId,
+//     tripName,
+//     tripDescription,
+//     tripActivities,
+//     recAreaName,
+//     recAreaId,
+//     ownerId,
+//     invitedUsers,
+//     startDate,
+//     endDate,
+//     createdAt
+//   }) {
+//     this.tripId = tripId;
+//     this.tripName = tripName;
+//     this.tripDescription = tripDescription;
+//     this.tripActivities = tripActivities || [];
+//     this.recAreaName = recAreaName;
+//     this.recAreaId = recAreaId;
+//     this.ownerId = ownerId;
+//     this.invitedUsers = invitedUsers;
+//     this.createdAt = createdAt || Date.now();
+//     this.startDate = startDate;
+//     this.endDate = endDate;
+//   }
+// }
+
+// module.exports = Trip;
+
 class Trip {
   constructor({
     tripId,
     tripName,
-    description,
-    activities,
+    tripDescription,
+    tripActivities = [],
+    campGrounds = [],
     recAreaName,
     recAreaId,
     ownerId,
-    invitedUsers,
+    invitedUsers = [],
     startDate,
     endDate,
-    createdAt
+    createdAt,
   }) {
     this.tripId = tripId;
     this.tripName = tripName;
-    this.description = description;
-    this.activities = activities || [];
+    this.tripDescription = tripDescription; 
+    this.tripActivities = tripActivities; 
+    this.campGrounds = campGrounds; 
     this.recAreaName = recAreaName;
     this.recAreaId = recAreaId;
     this.ownerId = ownerId;
     this.invitedUsers = invitedUsers;
-    this.createdAt = createdAt || Date.now();
     this.startDate = startDate;
     this.endDate = endDate;
+    this.createdAt = createdAt || Date.now();
   }
 }
 
