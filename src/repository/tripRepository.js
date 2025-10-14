@@ -110,8 +110,6 @@ async function getTripsByUserId(userId) {
     isCreator: true,
   }));
 
-  console.log("Looking for invites with PK:", ownerPk);
-
   const invitesQuery = new QueryCommand({
     TableName: TABLE_NAME,
     IndexName: "UserInvitesIndex",
