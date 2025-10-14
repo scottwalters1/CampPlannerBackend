@@ -37,14 +37,6 @@ router.post("/login", async (req, res, next) => {
       { expiresIn: "60m" }
     );
 
-    // // Set token in token.js - Find another way to manage this
-    // setToken(token);
-
-    // res.status(202).json({
-    //   token,
-    //   message: `Logged in ${username}`,
-    // });
-
     res.cookie("token", token, {
       httpOnly: true,
       sameSite: "Strict",
@@ -57,6 +49,14 @@ router.post("/login", async (req, res, next) => {
   } catch (error) {
     next(error);
   }
+});
+
+router.post("/logout", (req, res) => {
+  res.clearCookie("token", {
+    httpOnly: true,
+    sameSite: "Strict",
+  });
+  res.status(200).json({ message: "Logged out successfully" });
 });
 
 function sanitizeUser(user) {
