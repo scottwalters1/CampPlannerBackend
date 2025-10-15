@@ -44,9 +44,9 @@ router.post("/login", async (req, res, next) => {
     // });
     res.cookie("token", token, {
       httpOnly: true,
-      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
-      secure: false, // HTTPS only in production
-      maxAge: 60 * 60 * 1000,
+      sameSite: "None", // required for cross-site
+      secure: false, // must be false if using HTTP
+      maxAge: 60 * 60 * 1000, // 1 hour
     });
     res.status(202).json({
       message: `Logged in ${username}`,
