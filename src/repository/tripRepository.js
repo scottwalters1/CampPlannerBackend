@@ -75,6 +75,7 @@ async function createTrip({
       tripId,
       tripName,
       recAreaName,
+      tripDescription,
       inviteStatus: user.inviteStatus,
       username: user.username,
       createdAt: Date.now(),
