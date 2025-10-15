@@ -5,6 +5,7 @@ const { AppError } = require("../util/appError");
 const { decodeJWT } = require("../util/jwt");
 
 async function createTrip(tripData) {
+  console.log(tripData);
   const trip = await tripRepository.createTrip(tripData);
   if (!trip) {
     logger.warn("Trip could not be created");

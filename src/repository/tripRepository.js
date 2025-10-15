@@ -21,7 +21,7 @@ async function createTrip({
   tripName,
   tripDescription,
   tripActivities = [],
-  campGrounds = [], 
+  campGrounds = [],
   recAreaName,
   recAreaId,
   invitedUsers = [],
@@ -71,9 +71,11 @@ async function createTrip({
       SK: `INVITE#${normalizedUserId}`,
       UserInvitesIndexPK: normalizedUserId,
       UserInvitesIndexSK: `TRIP#${tripId}`,
+      ownerId,
       tripId,
       tripName,
       recAreaName,
+      tripDescription,
       inviteStatus: user.inviteStatus,
       username: user.username,
       createdAt: Date.now(),
@@ -91,17 +93,56 @@ async function createTrip({
 }
 
 async function getTripsByUserId(userId) {
-  const command = new QueryCommand({
+
+  const ownerPk = `USER#${userId}`;
+
+  const ownerQuery = new QueryCommand({
     TableName: TABLE_NAME,
     IndexName: "UserTripsIndex",
     KeyConditionExpression: "UserTripsIndexPK = :owner",
     ExpressionAttributeValues: {
-      ":owner": `USER#${userId}`,
+      ":owner": ownerPk,
     },
   });
 
-  const data = await documentClient.send(command);
-  return data.Items || [];
+  const ownerResp = await documentClient.send(ownerQuery);
+  const ownerTrips = (ownerResp.Items || []).map(trip => ({
+    ...trip,
+    isCreator: true,
+  }));
+
+  const invitesQuery = new QueryCommand({
+    TableName: TABLE_NAME,
+    IndexName: "UserInvitesIndex",
+    KeyConditionExpression: "UserInvitesIndexPK = :user",
+    FilterExpression: "inviteStatus = :accepted",
+    ExpressionAttributeValues: {
+      ":user": ownerPk,
+      ":accepted": "Accepted",
+    },
+  });
+
+  const invitesResp = await documentClient.send(invitesQuery);
+  const inviteItems = invitesResp.Items || []; 
+
+  const invitedTripIds = inviteItems.map((invite) => invite.tripId);
+
+  const invitedTrips = await Promise.all(
+  invitedTripIds.map(async tripId => {
+    const getCmd = new GetCommand({
+      TableName: TABLE_NAME,
+      Key: {
+        PK: `TRIP#${tripId}`,
+        SK: "METADATA",
+      },
+    });
+    const resp = await documentClient.send(getCmd);
+    return {...resp.Item, isCreator: false};
+  })
+);
+  const allTrips = [...ownerTrips, ...invitedTrips];
+
+  return allTrips;
 }
 
 async function getTripByTripId(tripId) {
@@ -183,8 +224,10 @@ async function findInvitesByUser(userID) {
     TableName: TABLE_NAME,
     IndexName: "UserInvitesIndex",
     KeyConditionExpression: "UserInvitesIndexPK = :userID",
+    FilterExpression: "inviteStatus = :pending",
     ExpressionAttributeValues: {
       ":userID": normalizedUserID,
+      ":pending": "Pending",
     },
   });
 

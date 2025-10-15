@@ -13,7 +13,6 @@ router.post("/", async (req, res, next) => {
 });
 
 // Get Trips By Username
-// TODO: change to get username from logged in user
 router.get("/", async (req, res, next) => {
   try {
     const token = req.cookies.token;

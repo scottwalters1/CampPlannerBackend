@@ -87,6 +87,23 @@ async function getUserByUsername(username) {
   return sanitizeUser(user);
 }
 
+async function getUserByUserId(userId) {
+  if (!userId || typeof userId !== "string") {
+    logger.warn(`Invalid userId: ${userId}`);
+    throw new AppError("Invalid userId", 400);
+  }
+
+  const user = await userRepository.getUserByUserId(userId);
+
+  if (!user) {
+    logger.warn(`Id not found: ${userId}`);
+    throw new AppError("Id not found", 404);
+  }
+
+  logger.info(`Retrieved user: ${userId}`);
+  return sanitizeUser(user);
+}
+
 function sanitizeUser(user) {
   const { hashedPassword, ...safeUser } = user;
   return safeUser;
@@ -113,5 +130,6 @@ module.exports = {
   register,
   login,
   getUserByUsername,
+  getUserByUserId,
   deleteUserByUsername,
 };

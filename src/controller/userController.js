@@ -37,14 +37,6 @@ router.post("/login", async (req, res, next) => {
       { expiresIn: "60m" }
     );
 
-    // // Set token in token.js - Find another way to manage this
-    // setToken(token);
-
-    // res.status(202).json({
-    //   token,
-    //   message: `Logged in ${username}`,
-    // });
-
     res.cookie("token", token, {
       httpOnly: true,
       sameSite: "Strict",
@@ -59,15 +51,33 @@ router.post("/login", async (req, res, next) => {
   }
 });
 
+router.post("/logout", (req, res) => {
+  res.clearCookie("token", {
+    httpOnly: true,
+    sameSite: "Strict",
+  });
+  res.status(200).json({ message: "Logged out successfully" });
+});
+
 function sanitizeUser(user) {
   const { hashedPassword, ...safeUser } = user;
   return safeUser;
 }
 
 // Get user by username
-router.get("/:username", async (req, res, next) => {
+router.get("/username/:username", async (req, res, next) => {
   try {
     const user = await userService.getUserByUsername(req.params.username);
+    res.status(200).json(user);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.get("/id/:userId", async (req, res, next) => {
+  try {
+    const decodedId = decodeURIComponent(req.params.userId); // decode safely
+    const user = await userService.getUserByUserId(decodedId);
     res.status(200).json(user);
   } catch (error) {
     next(error);
@@ -83,5 +93,7 @@ router.delete("/:username", async (req, res, next) => {
     next(error);
   }
 });
+
+// get username by id
 
 module.exports = router;

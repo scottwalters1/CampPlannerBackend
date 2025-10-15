@@ -63,6 +63,24 @@ async function getUserByUsername(username) {
   }
 }
 
+async function getUserByUserId(userId) {
+  const params = {
+    TableName: TABLE_NAME,
+    Key: {
+      PK: userId,   
+      SK: "PROFILE",
+    },
+  };
+
+  try {
+    const data = await documentClient.send(new GetCommand(params));
+    return data.Item || null;
+  } catch (error) {
+    console.error("Error fetching user:", error);
+    return null;
+  }
+}
+
 async function deleteUserByUsername(username) {
   try {
     const user = await getUserByUsername(username);
@@ -88,5 +106,6 @@ async function deleteUserByUsername(username) {
 module.exports = {
   createUser,
   getUserByUsername,
-  deleteUserByUsername
+  deleteUserByUsername,
+  getUserByUserId
 };
