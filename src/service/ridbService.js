@@ -94,15 +94,35 @@ async function getCampgroundsByRecArea(params) {
     (facility) => facility.FacilityTypeDescription === "Campground"
   );
 
-
   return campgrounds.map((campground) => ({
     FacilityName: campground.FacilityName,
     FacilityID: campground.FacilityID,
   }));
 }
 
+async function getCoordsByRecId(params) {
+  try {
+    const url = `${RIDB_BASE_URL}/recareas/${params.recAreaID}`;
+    const res = await fetch(url, {
+      headers: { apikey: RIDB_API_KEY },
+    });
+
+    if (!res.ok) throw new Error("Failed to fetch rec area");
+
+    const data = await res.json();
+    console.log(data);
+    const { RecAreaLatitude, RecAreaLongitude } = data;
+
+    return { latitude: RecAreaLatitude, longitude: RecAreaLongitude };
+  } catch (err) {
+    logger.error(err);
+    throw err;
+  }
+}
+
 module.exports = {
   getRecAreasByQuery,
   getActivitiesByRecArea,
-  getCampgroundsByRecArea
+  getCampgroundsByRecArea,
+  getCoordsByRecId
 };

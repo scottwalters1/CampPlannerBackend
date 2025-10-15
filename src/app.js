@@ -58,6 +58,7 @@ const { loggerMiddleware } = require("./util/logger");
 const { errorMiddleware } = require("./util/appError");
 const userController = require("./controller/userController");
 const tripController = require("./controller/tripController");
+const weatherController = require("./controller/weatherController");
 const RIDBController = require("./controller/ridbController");
 
 const app = express();
@@ -87,6 +88,7 @@ app.use(loggerMiddleware);
 app.use("/users", userController);
 app.use("/trips", authenticateToken, tripController);
 app.use("/ridb", authenticateToken, RIDBController);
+app.use("/weather", weatherController);
 
 // Error handling
 app.use(errorMiddleware);
