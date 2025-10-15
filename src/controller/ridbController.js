@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const ridbService = require("../service/ridbService");
+const { error } = require("winston");
 
 // Get rec areas by query term
 router.get("/recareas", async (req, res, next) => {
@@ -32,5 +33,15 @@ router.get("/recareas/:recAreaID/campgrounds", async (req, res, next) => {
     next(error)
   }
 });
+
+router.get("/recareas/:recAreaID/coords", async (req, res, next) =>{
+  try{
+    const data = await ridbService.getCoordsByRecId(req.params);
+    res.status(200).json(data);
+  }
+  catch(error){
+    next(error);
+  }
+})
 
 module.exports = router;
