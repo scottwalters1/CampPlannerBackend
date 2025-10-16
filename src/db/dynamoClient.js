@@ -1,7 +1,7 @@
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
 const { DynamoDBDocumentClient } = require("@aws-sdk/lib-dynamodb");
 
-// Force SDK to only use credentials from environment variables
+// DynamoDB client — credentials are automatically taken from the EC2 IAM role
 const client = new DynamoDBClient({
   region: process.env.AWS_REGION,
 });
