@@ -56,17 +56,7 @@
 // module.exports = app;
 
 (async () => {
-  const express = require("express");
-  const cors = require("cors");
-  const cookieParser = require("cookie-parser");
-
-  const { authenticateToken } = require("./util/jwt");
-  const { loggerMiddleware } = require("./util/logger");
-  const { errorMiddleware } = require("./util/appError");
-  const userController = require("./controller/userController");
-  const tripController = require("./controller/tripController");
-  const weatherController = require("./controller/weatherController");
-  const RIDBController = require("./controller/ridbController");
+  
 
   // --- Load environment variables ---
   if (process.env.NODE_ENV === "production") {
@@ -99,6 +89,18 @@
     // Local: load from .env
     require("dotenv").config({ path: "./.env", override: true });
   }
+
+  const express = require("express");
+  const cors = require("cors");
+  const cookieParser = require("cookie-parser");
+
+  const { authenticateToken } = require("./util/jwt");
+  const { loggerMiddleware } = require("./util/logger");
+  const { errorMiddleware } = require("./util/appError");
+  const userController = require("./controller/userController");
+  const tripController = require("./controller/tripController");
+  const weatherController = require("./controller/weatherController");
+  const RIDBController = require("./controller/ridbController");
 
   // --- Express app setup ---
   const app = express();
