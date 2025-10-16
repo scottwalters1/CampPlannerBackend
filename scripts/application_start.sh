@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/campplanner-backend
-node index.js > /dev/null 2>&1 &
+nohup node src/app.js > /dev/null 2>&1 &
