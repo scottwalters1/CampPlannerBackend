@@ -1,5 +1,7 @@
 const { PutCommand, GetCommand, QueryCommand, DeleteCommand } = require("@aws-sdk/lib-dynamodb");
-const documentClient = require("../db/dynamoClient");
+// const documentClient = require("../db/dynamoClient");
+const { createDocumentClient } = require("../db/dynamoClient");
+const documentClient = createDocumentClient();
 const { v4: uuidv4 } = require("uuid");
 const User = require("../model/User");
 
