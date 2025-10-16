@@ -14,4 +14,5 @@ if [ -n "$PIDS" ]; then
 else
   echo "No Node.js process found. Nothing to stop."
 fi
+
 exit 0
