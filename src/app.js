@@ -85,6 +85,8 @@
     process.env.NODE_ENV = await getParameter("/campplanner/NODE_ENV");
     process.env.AWS_REGION = await getParameter("/campplanner/AWS_REGION");
     process.env.CAMPPLANNER_TABLE = await getParameter("/campplanner/CAMPPLANNER_TABLE");
+    logger.info("AWS region: ", AWS_REGION);
+    console.log("AWS region: ", AWS_REGION);
   } else {
     // Local: load from .env
     require("dotenv").config({ path: "./.env", override: true });
