@@ -6,6 +6,10 @@ files:
     overwrite: true
 file_exists_behavior: OVERWRITE
 hooks:
+  BeforeInstall:
+    - location: scripts/setup_env.sh
+      timeout: 300
+      runas: root
   ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
