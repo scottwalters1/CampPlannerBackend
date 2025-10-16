@@ -96,9 +96,8 @@
   const cors = require("cors");
   const cookieParser = require("cookie-parser");
 
-  const { logger } = require("../util/logger");
   const { authenticateToken } = require("./util/jwt");
-  const { loggerMiddleware } = require("./util/logger");
+  const { loggerMiddleware, logger} = require("./util/logger");
   const { errorMiddleware } = require("./util/appError");
   const userController = require("./controller/userController");
   const tripController = require("./controller/tripController");
