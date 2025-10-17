@@ -35,10 +35,8 @@ async function createUser(userData) {
       Item: item,
     });
     await documentClient.send(command);
-    logger.info("User written to DB", item);
     return { ...item, id: userId };
   } catch (error) {
-    logger.error("DynamoDB error in createUser:", error);
     return null;
   }
 }

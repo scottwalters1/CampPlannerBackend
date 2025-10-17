@@ -5,7 +5,9 @@ const {
   QueryCommand,
   UpdateCommand,
 } = require("@aws-sdk/lib-dynamodb");
-const documentClient = require("../db/dynamoClient");
+// const documentClient = require("../db/dynamoClient");
+const { createDocumentClient } = require("../db/dynamoClient");
+const documentClient = createDocumentClient();
 const { v4: uuidv4 } = require("uuid");
 const Trip = require("../model/Trip");
 const TripDate = require("../model/TripDate");
