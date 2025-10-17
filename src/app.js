@@ -1,7 +1,5 @@
 (async () => {
-  // --- Load environment variables ---
   if (process.env.NODE_ENV === "production") {
-    // Deployed: fetch from Parameter Store
     const { SSMClient, GetParameterCommand } = require("@aws-sdk/client-ssm");
     const ssm = new SSMClient({ region: "us-east-1" }); // your region
 
@@ -44,7 +42,6 @@
   const weatherController = require("./controller/weatherController");
   const RIDBController = require("./controller/ridbController");
 
-  // --- Express app setup ---
   const app = express();
 
   console.log("NODE_ENV:", process.env.NODE_ENV);

@@ -3,12 +3,10 @@ const jwt = require("jsonwebtoken");
 const { logger } = require("./logger");
 
 async function authenticateToken(req, res, next) {
-  console.log("Protected route hit:", req.path);
-  // Authorization: "Bearer tokenstring"
-
+  // console.log("Protected route hit:", req.path);
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
-  console.log("TOKEN:", token);
+  // console.log("TOKEN:", token);
 
   // demonstration purposes
   // const token = getToken();

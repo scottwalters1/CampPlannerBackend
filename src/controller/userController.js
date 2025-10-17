@@ -80,6 +80,7 @@ router.get("/username/:username", async (req, res, next) => {
   }
 });
 
+// get username by id
 router.get("/id/:userId", async (req, res, next) => {
   try {
     const decodedId = decodeURIComponent(req.params.userId); // decode safely
@@ -100,6 +101,5 @@ router.delete("/:username", async (req, res, next) => {
   }
 });
 
-// get username by id
 
 module.exports = router;
