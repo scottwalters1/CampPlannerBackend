@@ -29,6 +29,7 @@ async function createTrip({
   invitedUsers = [],
   startDate,
   endDate,
+  ownerUsername,
 }) {
   const tripId = uuidv4();
 
