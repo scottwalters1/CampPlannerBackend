@@ -15,8 +15,9 @@ router.post("/", async (req, res, next) => {
 // Get Trips By Username
 router.get("/", async (req, res, next) => {
   try {
-    const token = req.cookies.token;
-    const trips = await tripService.getTripsByUsername(token);
+    // const token = req.cookies.token;
+    const user = req.user;
+    const trips = await tripService.getTripsByUsername(user);
     res.status(200).json(trips);
   } catch (error) {
     next(error);
@@ -25,8 +26,8 @@ router.get("/", async (req, res, next) => {
 
 router.get("/invitedtrips", async (req, res, next) => {
   try {
-    const token = req.cookies.token;
-    const trips = await tripService.getInvitedTrips(token);
+    // const token = req.cookies.token;
+    const trips = await tripService.getInvitedTrips(req.user);
     res.status(200).json(trips);
   } catch (error) {
     next(error);
@@ -35,8 +36,8 @@ router.get("/invitedtrips", async (req, res, next) => {
 
 router.get("/invites", async (req, res, next) => {
   try {
-    const token = req.cookies.token;
-    const invites = await tripService.getInvites(token);
+    // const token = req.cookies.token;
+    const invites = await tripService.getInvites(req.user);
     res.status(200).json(invites);
   } catch (error) {
     next(error);
@@ -46,8 +47,8 @@ router.get("/invites", async (req, res, next) => {
 router.patch("/invites/:tripId", async (req, res, next) => {
   try {
     const tripId = req.params.tripId;
-    const token = req.cookies.token;
-    const data = await tripService.updateInvite(token, tripId, req.body);
+    // const token = req.cookies.token;
+    const data = await tripService.updateInvite(req.user, tripId, req.body);
     res.status(200).json(data);
   } catch (error) {
     next(error);

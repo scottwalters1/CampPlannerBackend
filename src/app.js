@@ -54,7 +54,10 @@
       ? "http://campplannerpipeline.s3-website-us-east-1.amazonaws.com"
       : "http://localhost:5173";
 
-  app.use(cors({ origin: allowedOrigin, credentials: true }));
+  app.use(cors({ 
+    origin: allowedOrigin, 
+    // credentials: true 
+  }));
   app.use(express.json());
   app.use(cookieParser());
   app.use(loggerMiddleware);

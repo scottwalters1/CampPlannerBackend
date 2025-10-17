@@ -39,17 +39,17 @@ router.post("/login", async (req, res, next) => {
 
     // res.cookie("token", token, {
     //   httpOnly: true,
-    //   sameSite: "Strict",
-    //   maxAge: 60 * 60 * 1000,
+    //   sameSite: "None", // required for cross-site
+    //   secure: false, // must be false if using HTTP
+    //   maxAge: 60 * 60 * 1000, // 1 hour
     // });
-    res.cookie("token", token, {
-      httpOnly: true,
-      sameSite: "None", // required for cross-site
-      secure: false, // must be false if using HTTP
-      maxAge: 60 * 60 * 1000, // 1 hour
-    });
+    // res.status(202).json({
+    //   message: `Logged in ${username}`,
+    //   user: sanitizeUser(user),
+    // });
     res.status(202).json({
       message: `Logged in ${username}`,
+      token,                  // <--- include token here
       user: sanitizeUser(user),
     });
   } catch (error) {

@@ -15,8 +15,8 @@ async function createTrip(tripData) {
   return trip;
 }
 
-async function getTripsByUsername(token) {
-  const user = await decodeJWT(token);
+async function getTripsByUsername(user) {
+  // const user = await decodeJWT(token);
   const username = user.username;
   const userID = user.userID.split("#")[1];
   console.log(userID);
@@ -26,22 +26,22 @@ async function getTripsByUsername(token) {
   return trips;
 }
 
-async function getInvitedTrips(token) {
-  const user = await decodeJWT(token);
-  // console.log(user);
+async function getInvitedTrips(user) {
+  // const user = await decodeJWT(token);
+  console.log(user);
   const trips = await tripRepository.findTripsByInvitedUser(user.userID);
   return trips;
 }
 
-async function getInvites(token) {
-  const user = await decodeJWT(token);
+async function getInvites(user) {
+  // const user = await decodeJWT(token);
   // console.log(user);
   const invites = await tripRepository.findInvitesByUser(user.userID);
   return invites;
 }
 
-async function updateInvite(token, tripId, body) {
-  const user = await decodeJWT(token);
+async function updateInvite(user, tripId, body) {
+  // const user = await decodeJWT(token);
   const newStatus = body.status;
   if (!["Accepted", "Denied", "Pending"].includes(newStatus)) {
     logger.warn(`Invalid new status: ${newStatus}`);

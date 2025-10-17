@@ -1,0 +1,186 @@
+2025-10-17T01:04:31.068Z [info]: Incoming POST : /userslogin
+2025-10-17T01:04:45.649Z [info]: Incoming POST : /users/login
+2025-10-17T01:04:45.883Z [info]: Logged in dave
+2025-10-17T01:04:57.364Z [info]: Incoming GET : /trips/invites
+2025-10-17T01:05:06.840Z [info]: Incoming POST : /users/login
+2025-10-17T01:05:06.923Z [info]: Logged in dave
+2025-10-17T01:05:10.439Z [info]: Incoming GET : /trips
+2025-10-17T01:05:47.322Z [info]: Incoming POST : /users/login
+2025-10-17T01:05:47.399Z [info]: Logged in chuck
+2025-10-17T01:05:47.425Z [info]: Incoming GET : /users/me
+2025-10-17T01:06:24.799Z [info]: Incoming GET : /trips/
+2025-10-17T01:06:24.802Z [error]: jwt must be provided
+2025-10-17T01:06:24.809Z [info]: Incoming GET : /trips/
+2025-10-17T01:06:24.811Z [error]: jwt must be provided
+2025-10-17T01:06:27.167Z [info]: Incoming POST : /users/logout
+2025-10-17T01:06:28.680Z [info]: Incoming GET : /trips/
+2025-10-17T01:06:28.682Z [info]: Incoming GET : /trips/
+2025-10-17T01:06:43.678Z [info]: Incoming POST : /users/login
+2025-10-17T01:06:43.759Z [info]: Logged in alice
+2025-10-17T01:06:48.144Z [info]: Incoming GET : /trips
+2025-10-17T01:08:20.590Z [info]: Incoming POST : /users/login
+2025-10-17T01:08:20.668Z [info]: Logged in alice
+2025-10-17T01:08:20.690Z [info]: Incoming GET : /users/me
+2025-10-17T01:09:01.887Z [info]: Incoming POST : /users/login
+2025-10-17T01:09:01.961Z [info]: Logged in alice
+2025-10-17T01:09:20.487Z [info]: Incoming GET : /trips
+2025-10-17T01:09:20.489Z [error]: jwt must be provided
+2025-10-17T01:12:34.898Z [info]: Incoming POST : /users/login
+2025-10-17T01:12:35.042Z [info]: Logged in alice
+2025-10-17T01:13:24.314Z [info]: Incoming POST : /users/login
+2025-10-17T01:13:24.397Z [info]: Logged in alice
+2025-10-17T01:13:26.906Z [info]: Incoming POST : /users/login
+2025-10-17T01:13:26.992Z [info]: Logged in alice
+2025-10-17T01:13:36.411Z [info]: Incoming GET : /trips
+2025-10-17T01:13:36.413Z [error]: jwt must be provided
+2025-10-17T01:14:30.750Z [info]: Incoming GET : /trips
+2025-10-17T01:14:42.353Z [info]: Incoming GET : /trips
+2025-10-17T01:14:42.355Z [error]: jwt must be provided
+2025-10-17T01:16:14.416Z [info]: Incoming GET : /trips
+2025-10-17T01:16:14.423Z [error]: jwt must be provided
+2025-10-17T01:17:59.577Z [info]: Incoming GET : /trips
+2025-10-17T01:17:59.584Z [error]: decodeJWT called with no token
+2025-10-17T01:20:32.335Z [info]: Incoming GET : /trips
+2025-10-17T01:20:32.342Z [error]: decodeJWT called with no token
+2025-10-17T01:22:44.124Z [info]: Incoming GET : /trips
+2025-10-17T01:22:44.130Z [error]: decodeJWT called with no token
+2025-10-17T01:22:59.368Z [info]: Incoming GET : /trips
+2025-10-17T01:22:59.376Z [error]: decodeJWT called with no tokenn
+2025-10-17T01:23:51.126Z [info]: Incoming GET : /trips
+2025-10-17T01:23:51.134Z [error]: decodeJWT called with no token
+2025-10-17T01:25:35.430Z [info]: Incoming GET : /trips
+2025-10-17T01:26:43.402Z [info]: Incoming GET : /trips
+2025-10-17T01:29:25.859Z [info]: Incoming GET : /trips
+2025-10-17T01:29:56.620Z [info]: Incoming GET : /trips
+2025-10-17T01:29:56.629Z [error]: jwt must be a string
+2025-10-17T01:30:49.912Z [info]: Incoming GET : /trips
+2025-10-17T01:31:03.056Z [info]: Incoming GET : /trips
+2025-10-17T01:31:12.242Z [info]: Incoming GET : /trips
+2025-10-17T01:31:12.250Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:00:25.501Z [info]: Incoming POST : /users/login
+2025-10-17T13:00:25.769Z [info]: Logged in alice
+2025-10-17T13:00:38.843Z [info]: Incoming GET : /trips
+2025-10-17T13:00:38.849Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:01:30.770Z [info]: Incoming POST : /users/login
+2025-10-17T13:01:30.847Z [info]: Logged in alice
+2025-10-17T13:01:32.009Z [info]: Incoming GET : /trips/
+2025-10-17T13:01:32.012Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:01:32.076Z [info]: Incoming GET : /trips/
+2025-10-17T13:01:32.079Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:01:36.634Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:01:36.912Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-15&end_date=2025-10-15&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:01:37.226Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:01:37.269Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-16&end_date=2025-10-16&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:01:37.362Z [info]: Fetching weather from:
+2025-10-17T13:01:37.713Z [info]: Fetching weather from:
+2025-10-17T13:01:38.536Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:01:38.582Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-17&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:01:38.699Z [info]: Fetching weather from:
+2025-10-17T13:01:41.014Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:01:41.055Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-16&end_date=2025-10-16&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:01:41.194Z [info]: Fetching weather from:
+2025-10-17T13:01:42.021Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:01:42.069Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-15&end_date=2025-10-15&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:01:42.184Z [info]: Fetching weather from:
+2025-10-17T13:03:05.754Z [info]: Incoming GET : /trips/
+2025-10-17T13:03:05.783Z [info]: Incoming GET : /trips/
+2025-10-17T13:03:12.076Z [info]: Incoming POST : /users/login
+2025-10-17T13:03:12.279Z [info]: Logged in bob
+2025-10-17T13:03:13.829Z [info]: Incoming GET : /trips/
+2025-10-17T13:03:13.835Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:03:13.841Z [info]: Incoming GET : /trips/
+2025-10-17T13:03:13.845Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:03:43.186Z [info]: Incoming POST : /users/logout
+2025-10-17T13:03:45.396Z [info]: Incoming POST : /users/login
+2025-10-17T13:03:45.476Z [info]: Logged in bob
+2025-10-17T13:03:46.480Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:03:46.483Z [error]: jwt must be provided
+2025-10-17T13:03:46.486Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:03:46.488Z [error]: jwt must be provided
+2025-10-17T13:05:26.994Z [info]: Incoming POST : /users/login
+2025-10-17T13:05:27.286Z [info]: Logged in alice
+2025-10-17T13:05:33.603Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:08:31.470Z [info]: Incoming POST : /users/login
+2025-10-17T13:08:31.612Z [info]: Logged in alice
+2025-10-17T13:09:15.278Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:09:15.282Z [error]: jwt must be provided
+2025-10-17T13:10:08.010Z [info]: Incoming GET : /trips/invitedtrips
+2025-10-17T13:10:49.984Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:11:50.038Z [info]: Incoming PATCH : /trips/invites/64afcf4a-a142-48bc-b75c-1c41c7952901
+2025-10-17T13:12:12.285Z [info]: Incoming PATCH : /trips/invites/64afcf4a-a142-48bc-b75c-1c41c7952901
+2025-10-17T13:12:32.368Z [info]: Incoming PATCH : /trips/invites/64afcf4a-a142-48bc-b75c-1c41c7952901
+2025-10-17T13:12:48.487Z [info]: Incoming POST : /users/logout
+2025-10-17T13:13:24.852Z [info]: Incoming POST : /users/login
+2025-10-17T13:13:25.012Z [info]: Logged in alice
+2025-10-17T13:13:37.472Z [info]: Incoming GET : /ridb/recareas?query=yosemite
+2025-10-17T13:13:39.876Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-17T13:13:39.880Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:13:39.979Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:13:39.994Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:13:40.013Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-17T13:13:40.458Z [info]: Fetching weather from:
+2025-10-17T13:13:40.462Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:13:40.577Z [info]: Fetching weather from:
+2025-10-17T13:13:47.171Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-17T13:13:47.175Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:13:47.279Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:13:47.289Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:13:47.293Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-17T13:13:47.753Z [info]: Fetching weather from:
+2025-10-17T13:13:47.762Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:13:47.873Z [info]: Fetching weather from:
+2025-10-17T13:13:57.576Z [info]: Incoming GET : /users/username/bob
+2025-10-17T13:13:57.594Z [info]: Retrieved user: bob
+2025-10-17T13:13:59.575Z [info]: Incoming POST : /trips
+2025-10-17T13:13:59.694Z [info]: Created trip: alice invited bob
+2025-10-17T13:13:59.743Z [info]: Incoming GET : /trips/
+2025-10-17T13:13:59.746Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:13:59.795Z [info]: Incoming GET : /trips/
+2025-10-17T13:13:59.797Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-17T13:14:04.016Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:04.118Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-17&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:04.528Z [info]: Fetching weather from:
+2025-10-17T13:14:04.617Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:04.764Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:04.873Z [info]: Fetching weather from:
+2025-10-17T13:14:05.417Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:05.470Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-19&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:05.572Z [info]: Fetching weather from:
+2025-10-17T13:14:07.288Z [info]: Incoming POST : /users/logout
+2025-10-17T13:14:09.255Z [info]: Incoming POST : /users/login
+2025-10-17T13:14:09.350Z [info]: Logged in bob
+2025-10-17T13:14:10.590Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:14:10.594Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:14:10.630Z [info]: Incoming GET : /users/id/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:10.650Z [info]: Retrieved user: USER#b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:10.655Z [info]: Incoming GET : /users/id/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:10.672Z [info]: Retrieved user: USER#b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:12.814Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:12.816Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:14:12.861Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:12.863Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:14:14.004Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:14:14.033Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:14:14.040Z [info]: Incoming GET : /users/id/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:14.056Z [info]: Retrieved user: USER#b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:14.061Z [info]: Incoming GET : /users/id/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:14.076Z [info]: Retrieved user: USER#b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-17T13:14:15.311Z [info]: Incoming PATCH : /trips/invites/71ff8a28-5682-4af6-8bed-4ef98a1ec1a4
+2025-10-17T13:14:16.650Z [info]: Incoming GET : /trips/invites
+2025-10-17T13:14:20.449Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:20.454Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:24.370Z [info]: Incoming POST : /users/login
+2025-10-17T13:14:24.455Z [info]: Logged in bob
+2025-10-17T13:14:26.673Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:26.676Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:14:26.679Z [info]: Incoming GET : /trips/
+2025-10-17T13:14:26.681Z [info]: Fetching trips for user: bob (8c8a1ed8-4ec0-4bdb-a59c-fa92d27498e4)
+2025-10-17T13:14:30.009Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:30.244Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-17&end_date=2025-10-17&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:30.353Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:30.398Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:30.676Z [info]: Fetching weather from:
+2025-10-17T13:14:30.918Z [info]: Fetching weather from:
+2025-10-17T13:14:31.167Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-17T13:14:31.258Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-19&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-17T13:14:31.371Z [info]: Fetching weather from:
