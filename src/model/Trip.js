@@ -42,6 +42,7 @@ class Trip {
     startDate,
     endDate,
     createdAt,
+    ownerUsername,
   }) {
     this.tripId = tripId;
     this.tripName = tripName;
@@ -55,6 +56,7 @@ class Trip {
     this.startDate = startDate;
     this.endDate = endDate;
     this.createdAt = createdAt || Date.now();
+    this.ownerUsername = ownerUsername;
   }
 }
 

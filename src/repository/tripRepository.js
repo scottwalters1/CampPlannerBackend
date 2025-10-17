@@ -49,6 +49,7 @@ async function createTrip({
     startDate,
     endDate,
     createdAt: Date.now(),
+    ownerUsername,
   });
 
   const item = {
@@ -81,6 +82,7 @@ async function createTrip({
       inviteStatus: user.inviteStatus,
       username: user.username,
       createdAt: Date.now(),
+      ownerUsername,
     };
 
     await documentClient.send(

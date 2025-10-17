@@ -184,3 +184,12 @@
 2025-10-17T13:14:31.167Z [info]: Incoming GET : /ridb/recareas/2991/coords
 2025-10-17T13:14:31.258Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-19&end_date=2025-10-19&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
 2025-10-17T13:14:31.371Z [info]: Fetching weather from:
+2025-10-17T16:59:12.451Z [info]: Incoming POST : /users/login
+2025-10-17T16:59:12.752Z [info]: Logged in andre
+2025-10-17T16:59:30.424Z [info]: Incoming GET : /ridb/recareas?query=yosemite
+2025-10-17T16:59:50.431Z [info]: Incoming GET : /trips/invites
+2025-10-17T16:59:50.435Z [info]: Incoming GET : /trips/invites
+2025-10-17T16:59:53.473Z [info]: Incoming GET : /trips/
+2025-10-17T16:59:53.476Z [info]: Incoming GET : /trips/
+2025-10-17T16:59:56.416Z [info]: Incoming GET : /trips/
+2025-10-17T16:59:56.418Z [info]: Incoming GET : /trips/
