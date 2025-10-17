@@ -5,6 +5,9 @@ phases:
       nodejs: 18
     commands: 
       - npm install
+  pre_build:
+    commands:
+      - npm test
 artifacts:
   files:
     - '**/*'
