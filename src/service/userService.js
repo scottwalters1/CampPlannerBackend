@@ -5,7 +5,6 @@ const User = require("../model/User");
 const { AppError } = require("../util/appError");
 
 async function register(user) {
-  console.log(user)
   // Check if username already exists
   if (await userRepository.getUserByUsername(user.username)) {
     logger.warn(`Username already registered: ${user.username}`);
@@ -106,6 +105,7 @@ async function getUserByUserId(userId) {
 }
 
 function sanitizeUser(user) {
+  console.log(user);
   const { hashedPassword, ...safeUser } = user;
   return safeUser;
 }

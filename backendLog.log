@@ -198,3 +198,12 @@
 2025-10-18T21:18:14.508Z [warn]: Username already registered: bob
 2025-10-18T21:18:27.141Z [info]: Incoming POST : /users/register
 2025-10-18T21:18:27.276Z [warn]: Username already registered: bob
+2025-10-18T21:44:12.942Z [info]: Incoming POST : /users/register
+2025-10-18T21:44:13.148Z [warn]: Invalid username or password
+2025-10-18T22:01:55.120Z [info]: Incoming GET : /users/bob
+2025-10-18T22:02:56.116Z [info]: Incoming GET : /users/username/bob
+2025-10-18T22:02:56.328Z [info]: Retrieved user: bob
+2025-10-18T22:10:40.317Z [info]: Incoming GET : /users/username/bob
+2025-10-18T22:10:40.450Z [info]: Retrieved user: bob
+2025-10-18T22:13:31.537Z [info]: Incoming DELETE : /users/bob
+2025-10-18T22:13:31.788Z [info]: Deleted user: bob
