@@ -5,6 +5,7 @@ const User = require("../model/User");
 const { AppError } = require("../util/appError");
 
 async function register(user) {
+  console.log(user)
   // Check if username already exists
   if (await userRepository.getUserByUsername(user.username)) {
     logger.warn(`Username already registered: ${user.username}`);
@@ -38,7 +39,7 @@ async function register(user) {
 }
 
 function validateUser(user) {
-  return (
+  return !!(
     user.username &&
     user.password &&
     user.username.length > 0 &&
@@ -132,4 +133,6 @@ module.exports = {
   getUserByUsername,
   getUserByUserId,
   deleteUserByUsername,
+  validateUser,
+  sanitizeUser
 };

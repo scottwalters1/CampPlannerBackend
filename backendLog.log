@@ -193,3 +193,8 @@
 2025-10-17T16:59:53.476Z [info]: Incoming GET : /trips/
 2025-10-17T16:59:56.416Z [info]: Incoming GET : /trips/
 2025-10-17T16:59:56.418Z [info]: Incoming GET : /trips/
+2025-10-18T21:18:06.262Z [info]: Incoming POST : /usersregister
+2025-10-18T21:18:14.357Z [info]: Incoming POST : /users/register
+2025-10-18T21:18:14.508Z [warn]: Username already registered: bob
+2025-10-18T21:18:27.141Z [info]: Incoming POST : /users/register
+2025-10-18T21:18:27.276Z [warn]: Username already registered: bob
