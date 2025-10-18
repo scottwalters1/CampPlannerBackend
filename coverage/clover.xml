@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1760825766744" clover="3.2.0">
-  <project timestamp="1760825766745" name="All files">
-    <metrics statements="74" coveredstatements="72" conditionals="42" coveredconditionals="38" methods="10" coveredmethods="9" elements="126" coveredelements="119" complexity="0" loc="74" ncloc="74" packages="3" files="3" classes="3"/>
+<coverage generated="1760827829756" clover="3.2.0">
+  <project timestamp="1760827829756" name="All files">
+    <metrics statements="99" coveredstatements="97" conditionals="46" coveredconditionals="42" methods="15" coveredmethods="14" elements="160" coveredelements="153" complexity="0" loc="99" ncloc="99" packages="3" files="4" classes="4"/>
     <package name="model">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="User.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\model\User.js">
@@ -13,9 +13,38 @@
       </file>
     </package>
     <package name="service">
-      <metrics statements="64" coveredstatements="64" conditionals="38" coveredconditionals="38" methods="7" coveredmethods="7"/>
+      <metrics statements="89" coveredstatements="89" conditionals="42" coveredconditionals="42" methods="12" coveredmethods="12"/>
+      <file name="tripService.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\service\tripService.js">
+        <metrics statements="26" coveredstatements="26" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
       <file name="userService.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\service\userService.js">
-        <metrics statements="64" coveredstatements="64" conditionals="38" coveredconditionals="38" methods="7" coveredmethods="7"/>
+        <metrics statements="63" coveredstatements="63" conditionals="38" coveredconditionals="38" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -69,29 +98,28 @@
         <line num="104" count="1" type="stmt"/>
         <line num="108" count="4" type="stmt"/>
         <line num="109" count="4" type="stmt"/>
-        <line num="110" count="4" type="stmt"/>
-        <line num="114" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="113" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="114" count="2" type="stmt"/>
         <line num="115" count="2" type="stmt"/>
-        <line num="116" count="2" type="stmt"/>
-        <line num="119" count="2" type="stmt"/>
-        <line num="121" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="120" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="121" count="1" type="stmt"/>
         <line num="122" count="1" type="stmt"/>
-        <line num="123" count="1" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
         <line num="126" count="1" type="stmt"/>
-        <line num="127" count="1" type="stmt"/>
-        <line num="130" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
       </file>
     </package>
     <package name="util">
       <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="appError.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\util\appError.js">
         <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="3" count="16" type="stmt"/>
-        <line num="4" count="16" type="stmt"/>
-        <line num="5" count="16" type="stmt"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
         <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
     </package>
   </project>

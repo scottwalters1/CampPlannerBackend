@@ -10,10 +10,8 @@ const { createDocumentClient } = require("../db/dynamoClient");
 const documentClient = createDocumentClient();
 const { v4: uuidv4 } = require("uuid");
 const Trip = require("../model/Trip");
-const TripDate = require("../model/TripDate");
 
 const { logger } = require("../util/logger");
-const { Console } = require("winston/lib/winston/transports");
 
 // const TableName = process.env.TRIPS_TABLE || "Trips";
 const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";

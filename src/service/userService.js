@@ -105,7 +105,6 @@ async function getUserByUserId(userId) {
 }
 
 function sanitizeUser(user) {
-  console.log(user);
   const { hashedPassword, ...safeUser } = user;
   return safeUser;
 }

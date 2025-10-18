@@ -252,7 +252,11 @@ describe("User Service tests", () => {
 
     test("should return sanitized user if found", async () => {
       const mockUser = {
-        userId: "abc123",
+        PK: "USER#abc123",
+        SK: "PROFILE",
+        UsernameIndexPK: "USERNAME#bob",
+        UsernameIndexSK: "PROFILE",
+        createdAt: 1759190786615,
         username: "bob",
         hashedPassword: "secret",
       };
@@ -260,7 +264,15 @@ describe("User Service tests", () => {
 
       const result = await userService.getUserByUserId("abc123");
 
-      expect(result).toEqual({ userId: "abc123", username: "bob" });
+      expect(result).toEqual({
+        PK: "USER#abc123",
+        SK: "PROFILE",
+        UsernameIndexPK: "USERNAME#bob",
+        UsernameIndexSK: "PROFILE",
+        createdAt: 1759190786615,
+        username: "bob",
+      });
+      expect(result.hashedPassword).toBeUndefined();
       expect(logger.info).toHaveBeenCalledWith("Retrieved user: abc123");
       expect(userRepository.getUserByUserId).toHaveBeenCalledWith("abc123");
     });

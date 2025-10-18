@@ -207,3 +207,16 @@
 2025-10-18T22:10:40.450Z [info]: Retrieved user: bob
 2025-10-18T22:13:31.537Z [info]: Incoming DELETE : /users/bob
 2025-10-18T22:13:31.788Z [info]: Deleted user: bob
+2025-10-18T22:18:18.043Z [info]: Incoming GET : /users/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-18T22:18:47.253Z [info]: Incoming GET : /users/id/USER%23b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-18T22:18:47.399Z [info]: Retrieved user: USER#b329bd67-1de4-4c61-9964-960f9ff8d261
+2025-10-18T22:38:05.627Z [info]: Incoming GET : /users/username/chuck
+2025-10-18T22:38:06.111Z [info]: Retrieved user: chuck
+2025-10-18T22:39:23.337Z [info]: Incoming POST : /users/login
+2025-10-18T22:39:23.443Z [info]: Logged in alice
+2025-10-18T22:39:39.449Z [info]: Incoming GET : /trips
+2025-10-18T22:39:39.453Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-18T22:39:58.956Z [info]: Incoming GET : /trips
+2025-10-18T22:39:58.963Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-18T22:41:19.410Z [info]: Incoming POST : /users/register
+2025-10-18T22:41:19.660Z [info]: Creating new user: bob
