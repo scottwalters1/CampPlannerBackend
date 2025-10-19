@@ -13,7 +13,6 @@ const Trip = require("../model/Trip");
 
 const { logger } = require("../util/logger");
 
-// const TableName = process.env.TRIPS_TABLE || "Trips";
 const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
 async function createTrip({

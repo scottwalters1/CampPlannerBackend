@@ -34,6 +34,7 @@ router.get("/recareas/:recAreaID/campgrounds", async (req, res, next) => {
   }
 });
 
+// Get coordinates by rec area ID
 router.get("/recareas/:recAreaID/coords", async (req, res, next) =>{
   try{
     const data = await ridbService.getCoordsByRecId(req.params);

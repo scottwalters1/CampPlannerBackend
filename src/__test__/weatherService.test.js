@@ -11,7 +11,7 @@ jest.mock("../util/logger", () => ({
 
 beforeEach(() => {
   jest.clearAllMocks();
-  global.fetch = jest.fn(); // mock fetch globally
+  global.fetch = jest.fn(); 
 });
 
 describe("weatherService tests", () => {
