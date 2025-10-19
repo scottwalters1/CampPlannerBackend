@@ -107,6 +107,21 @@ describe("Trip Service tests", () => {
         "Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)"
       );
     });
+
+    test("should return empty array if user has no trips", async () => {
+      const mockUser = {
+        username: "alice",
+        userID: "USER#b329bd67-1de4-4c61-9964-960f9ff8d261",
+      };
+      tripRepository.getTripsByUserId.mockResolvedValue([]);
+
+      const result = await tripService.getTripsByUsername(mockUser);
+
+      expect(result).toEqual([]);
+      expect(tripRepository.getTripsByUserId).toHaveBeenCalledWith(
+        "b329bd67-1de4-4c61-9964-960f9ff8d261"
+      );
+    });
   });
 
   describe("getInvitedTrips tests", () => {
@@ -164,7 +179,10 @@ describe("Trip Service tests", () => {
 
   describe("updateInvite tests", () => {
     test("should throw AppError for invalid status", async () => {
-      const mockUser = { username: "bob", userID: "USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc" };
+      const mockUser = {
+        username: "bob",
+        userID: "USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc",
+      };
       const body = { status: "Invalid" };
 
       await expect(
@@ -175,7 +193,10 @@ describe("Trip Service tests", () => {
     });
 
     test("should update invite with valid status", async () => {
-      const mockUser = { username: "bob", userID: "USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc" };
+      const mockUser = {
+        username: "bob",
+        userID: "USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc",
+      };
       const body = { status: "Accepted" };
       const mockResult = { inviteId: "invite1", status: "Accepted" };
 

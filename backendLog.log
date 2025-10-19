@@ -220,3 +220,14 @@
 2025-10-18T22:39:58.963Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
 2025-10-18T22:41:19.410Z [info]: Incoming POST : /users/register
 2025-10-18T22:41:19.660Z [info]: Creating new user: bob
+2025-10-19T01:16:58.055Z [info]: Incoming POST : /users/login
+2025-10-19T01:16:58.365Z [info]: Logged in alice
+2025-10-19T01:17:23.439Z [info]: Incoming GET : /ridb/recareas?query=Yosemite
+2025-10-19T01:17:33.773Z [info]: Incoming GET : /ridb/recareas?query=Yosemite
+2025-10-19T01:19:42.148Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T01:21:00.466Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T01:23:16.451Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T01:27:00.832Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:27:16.596Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:33:02.616Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T01:35:22.356Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds

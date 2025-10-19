@@ -51,18 +51,12 @@ async function getActivitiesByRecArea(params) {
     throw new AppError("Failed to fetch from RIDB", 500);
   }
 
-  if (!res.ok) {
-    logger.error(`RIDB API returned ${res.status}`);
-    throw new AppError(`RIDB API error: ${res.statusText}`, 500);
-  }
-
   const data = await res.json();
 
   return data.RECDATA.map((activity) => ({
     ActivityName: activity.ActivityName,
-    // ActivityID: activity.ActivityID,
   }));
-}
+};
 
 async function getCampgroundsByRecArea(params) {
   const recAreaID = params.recAreaID;
@@ -81,11 +75,6 @@ async function getCampgroundsByRecArea(params) {
   } catch (err) {
     logger.error("Failed to fetch from RIDB", err);
     throw new AppError("Failed to fetch from RIDB", 500);
-  }
-
-  if (!res.ok) {
-    logger.error(`RIDB API returned ${res.status}`);
-    throw new AppError(`RIDB API error: ${res.statusText}`, 500);
   }
 
   const data = await res.json();
@@ -107,10 +96,9 @@ async function getCoordsByRecId(params) {
       headers: { apikey: RIDB_API_KEY },
     });
 
-    if (!res.ok) throw new Error("Failed to fetch rec area");
+    if (!res.ok) throw new AppError("Failed to fetch rec area", 500);
 
     const data = await res.json();
-    console.log(data);
     const { RecAreaLatitude, RecAreaLongitude } = data;
 
     return { latitude: RecAreaLatitude, longitude: RecAreaLongitude };
@@ -124,5 +112,5 @@ module.exports = {
   getRecAreasByQuery,
   getActivitiesByRecArea,
   getCampgroundsByRecArea,
-  getCoordsByRecId
+  getCoordsByRecId,
 };
