@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-# MAYBE PUT ENV VALUES IN HERE EVENTUALLY INSTEAD OF FILE

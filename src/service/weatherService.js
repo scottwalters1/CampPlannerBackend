@@ -35,9 +35,9 @@ async function getWeatherByQuery({
     date,
     temperature_max: data.daily.temperature_2m_max[idx],
     temperature_min: data.daily.temperature_2m_min[idx],
-    windspeed: data.daily.windspeed_10m_max[idx] ?? null,
-    precipitation: data.daily.precipitation_sum[idx] ?? null,
-    weathercode: data.daily.weathercode[idx] ?? null,
+    windspeed: (data.daily.windspeed_10m_max || [])[idx] ?? null,
+    precipitation: (data.daily.precipitation_sum || [])[idx] ?? null,
+    weathercode: (data.daily.weathercode || [])[idx] ?? null,
   }));
 
   return result;

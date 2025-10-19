@@ -2,10 +2,9 @@ const tripRepository = require("../repository/tripRepository");
 const userRepository = require("../repository/userRepository");
 const { logger } = require("../util/logger");
 const { AppError } = require("../util/appError");
-const { decodeJWT } = require("../util/jwt");
+// const { decodeJWT } = require("../util/jwt");
 
 async function createTrip(tripData) {
-  console.log(tripData);
   const trip = await tripRepository.createTrip(tripData);
   if (!trip) {
     logger.warn("Trip could not be created");
@@ -19,7 +18,6 @@ async function getTripsByUsername(user) {
   // const user = await decodeJWT(token);
   const username = user.username;
   const userID = user.userID.split("#")[1];
-  console.log(userID);
 
   logger.info(`Fetching trips for user: ${username} (${userID})`);
   const trips = await tripRepository.getTripsByUserId(userID);
@@ -28,14 +26,12 @@ async function getTripsByUsername(user) {
 
 async function getInvitedTrips(user) {
   // const user = await decodeJWT(token);
-  console.log(user);
   const trips = await tripRepository.findTripsByInvitedUser(user.userID);
   return trips;
 }
 
 async function getInvites(user) {
   // const user = await decodeJWT(token);
-  // console.log(user);
   const invites = await tripRepository.findInvitesByUser(user.userID);
   return invites;
 }

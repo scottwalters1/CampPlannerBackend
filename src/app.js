@@ -1,7 +1,7 @@
 (async () => {
   if (process.env.NODE_ENV === "production") {
     const { SSMClient, GetParameterCommand } = require("@aws-sdk/client-ssm");
-    const ssm = new SSMClient({ region: "us-east-1" }); // your region
+    const ssm = new SSMClient({ region: "us-east-1" }); 
 
     async function getParameter(name, withDecryption = false) {
       const command = new GetParameterCommand({

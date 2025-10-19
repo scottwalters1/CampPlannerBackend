@@ -1,4 +1,9 @@
-const { PutCommand, GetCommand, QueryCommand, DeleteCommand } = require("@aws-sdk/lib-dynamodb");
+const {
+  PutCommand,
+  GetCommand,
+  QueryCommand,
+  DeleteCommand,
+} = require("@aws-sdk/lib-dynamodb");
 // const documentClient = require("../db/dynamoClient");
 const { createDocumentClient } = require("../db/dynamoClient");
 const documentClient = createDocumentClient();
@@ -7,11 +12,9 @@ const User = require("../model/User");
 
 const { logger } = require("../util/logger");
 
-// const USERS_TABLE = process.env.USERS_TABLE || "Users";
 const TABLE_NAME = process.env.CAMPPLANNER_TABLE || "CampPlanner_Table";
 
 async function createUser(userData) {
-  
   try {
     const userId = uuidv4();
     const user = new User({
@@ -45,7 +48,8 @@ async function getUserByUsername(username) {
   const command = new QueryCommand({
     TableName: TABLE_NAME,
     IndexName: "UsernameIndex",
-    KeyConditionExpression: "UsernameIndexPK = :username AND UsernameIndexSK = :profile",
+    KeyConditionExpression:
+      "UsernameIndexPK = :username AND UsernameIndexSK = :profile",
     ExpressionAttributeValues: {
       ":username": `USERNAME#${username}`,
       ":profile": "PROFILE",
@@ -68,7 +72,7 @@ async function getUserByUserId(userId) {
   const params = {
     TableName: TABLE_NAME,
     Key: {
-      PK: userId,   
+      PK: userId,
       SK: "PROFILE",
     },
   };
@@ -108,5 +112,5 @@ module.exports = {
   createUser,
   getUserByUsername,
   deleteUserByUsername,
-  getUserByUserId
+  getUserByUserId,
 };

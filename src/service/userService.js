@@ -38,7 +38,7 @@ async function register(user) {
 }
 
 function validateUser(user) {
-  return (
+  return !!(
     user.username &&
     user.password &&
     user.username.length > 0 &&
@@ -132,4 +132,6 @@ module.exports = {
   getUserByUsername,
   getUserByUserId,
   deleteUserByUsername,
+  validateUser,
+  sanitizeUser
 };
