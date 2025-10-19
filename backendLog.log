@@ -231,3 +231,23 @@
 2025-10-19T01:27:16.596Z [info]: Incoming GET : /ridb/recareas/2991/coords
 2025-10-19T01:33:02.616Z [info]: Incoming GET : /ridb/recareas/2991/activities
 2025-10-19T01:35:22.356Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T01:48:03.801Z [info]: Incoming POST : /users/login
+2025-10-19T01:48:04.010Z [info]: Logged in alice
+2025-10-19T01:48:15.504Z [info]: Incoming GET : /ridb/recareas?query=yosemite
+2025-10-19T01:48:17.236Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T01:48:17.240Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:48:17.299Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T01:48:17.307Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:48:17.327Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T01:48:17.914Z [info]: Fetching weather from:
+2025-10-19T01:48:17.919Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T01:48:18.022Z [info]: Fetching weather from:
+2025-10-19T01:48:24.601Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:48:24.605Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T01:48:24.662Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T01:48:24.671Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T01:48:24.678Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T01:48:25.178Z [info]: Fetching weather from:
+2025-10-19T01:48:25.182Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T01:48:25.289Z [info]: Fetching weather from:
+2025-10-19T01:48:33.509Z [info]: Incoming POST : /users/logout
