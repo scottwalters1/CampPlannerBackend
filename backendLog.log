@@ -251,3 +251,1740 @@
 2025-10-19T01:48:25.182Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-18&end_date=2025-10-18&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
 2025-10-19T01:48:25.289Z [info]: Fetching weather from:
 2025-10-19T01:48:33.509Z [info]: Incoming POST : /users/logout
+2025-10-19T18:13:03.986Z [info]: Incoming POST : /users/login
+2025-10-19T18:13:04.287Z [info]: Logged in alice
+2025-10-19T18:13:05.518Z [info]: Incoming GET : /trips/
+2025-10-19T18:13:05.523Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T18:13:05.608Z [info]: Incoming GET : /trips/
+2025-10-19T18:13:05.610Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T18:13:58.683Z [info]: Incoming POST : /users/login
+2025-10-19T18:13:58.782Z [info]: Logged in alice
+2025-10-19T18:14:00.096Z [info]: Incoming GET : /trips/
+2025-10-19T18:14:00.101Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T18:14:00.146Z [info]: Incoming GET : /trips/
+2025-10-19T18:14:00.148Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T22:25:47.573Z [info]: Incoming POST : /users/logout
+2025-10-19T22:25:49.807Z [info]: Incoming POST : /users/login
+2025-10-19T22:25:49.997Z [info]: Logged in bob
+2025-10-19T22:26:06.781Z [info]: Incoming POST : /users/login
+2025-10-19T22:26:06.864Z [info]: Logged in bob
+2025-10-19T22:26:39.795Z [info]: Incoming GET : /ridb/recareas?query=yosemite
+2025-10-19T22:26:43.665Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T22:26:43.669Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:26:43.726Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T22:26:43.737Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:26:43.753Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-22&end_date=2025-10-24&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:26:44.207Z [info]: Fetching weather from:
+2025-10-19T22:26:44.212Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-22&end_date=2025-10-24&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:26:44.323Z [info]: Fetching weather from:
+2025-10-19T22:27:14.470Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:27:14.479Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T22:27:14.519Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:27:14.532Z [info]: Incoming GET : /ridb/recareas/2991/activities
+2025-10-19T22:27:14.535Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-22&end_date=2025-10-24&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:27:14.981Z [info]: Fetching weather from:
+2025-10-19T22:27:14.986Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-22&end_date=2025-10-24&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:27:15.106Z [info]: Fetching weather from:
+2025-10-19T22:27:21.437Z [info]: Incoming GET : /users/username/bob
+2025-10-19T22:27:21.455Z [info]: Retrieved user: bob
+2025-10-19T22:28:10.359Z [info]: Incoming GET : /ridb/recareas?query=yosemite
+2025-10-19T22:28:19.349Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T22:28:19.352Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:28:19.443Z [info]: Incoming GET : /ridb/recareas/2991/campgrounds
+2025-10-19T22:28:19.588Z [info]: Incoming GET : /ridb/recareas/2991/coords
+2025-10-19T22:28:19.614Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-29&end_date=2025-10-31&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:28:20.051Z [info]: Fetching weather from:
+2025-10-19T22:28:20.059Z [info]: Incoming GET : /weather?latitude=37.848833&longitude=-119.557187&start_date=2025-10-29&end_date=2025-10-31&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:28:20.168Z [info]: Fetching weather from:
+2025-10-19T22:33:43.565Z [info]: Incoming POST : /users/login
+2025-10-19T22:33:43.811Z [info]: Logged in bob
+2025-10-19T22:34:08.619Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T22:34:21.121Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:34:21.127Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:34:21.205Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:34:21.212Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:34:21.285Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:34:21.735Z [info]: Fetching weather from:
+2025-10-19T22:34:21.745Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:34:21.851Z [info]: Fetching weather from:
+2025-10-19T22:34:30.171Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:34:30.230Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:34:30.273Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:34:30.304Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:34:30.352Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:34:30.780Z [info]: Fetching weather from:
+2025-10-19T22:34:30.787Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:34:30.900Z [info]: Fetching weather from:
+2025-10-19T22:34:48.526Z [info]: Incoming GET : /users/username/alice
+2025-10-19T22:34:48.547Z [info]: Retrieved user: alice
+2025-10-19T22:34:53.379Z [info]: Incoming POST : /trips
+2025-10-19T22:34:53.560Z [info]: Created trip: Example Trip
+2025-10-19T22:34:53.624Z [info]: Incoming GET : /trips/
+2025-10-19T22:34:53.626Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:34:53.675Z [info]: Incoming GET : /trips/
+2025-10-19T22:34:53.677Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:35:30.433Z [info]: Incoming POST : /users/login
+2025-10-19T22:35:30.538Z [info]: Logged in bob
+2025-10-19T22:35:30.548Z [info]: Incoming POST : /users/login
+2025-10-19T22:35:30.635Z [info]: Logged in bob
+2025-10-19T22:35:54.868Z [info]: Incoming POST : /users/login
+2025-10-19T22:35:54.951Z [info]: Logged in bob
+2025-10-19T22:35:54.962Z [info]: Incoming POST : /users/login
+2025-10-19T22:35:55.044Z [info]: Logged in bob
+2025-10-19T22:35:56.639Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T22:35:57.178Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:35:57.227Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:35:57.324Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:35:57.365Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:35:57.411Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:35:57.905Z [info]: Fetching weather from:
+2025-10-19T22:35:57.914Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:35:57.991Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:35:58.001Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:35:58.050Z [info]: Fetching weather from:
+2025-10-19T22:35:58.061Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:35:58.065Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:35:58.102Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:35:58.212Z [info]: Fetching weather from:
+2025-10-19T22:35:58.221Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:35:58.354Z [info]: Fetching weather from:
+2025-10-19T22:35:59.445Z [info]: Incoming GET : /users/username/alice
+2025-10-19T22:35:59.463Z [info]: Retrieved user: alice
+2025-10-19T22:35:59.537Z [info]: Incoming POST : /trips
+2025-10-19T22:35:59.574Z [info]: Created trip: Example Trip
+2025-10-19T22:35:59.632Z [info]: Incoming GET : /trips/
+2025-10-19T22:35:59.635Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:35:59.680Z [info]: Incoming GET : /trips/
+2025-10-19T22:35:59.683Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:37:23.892Z [info]: Incoming POST : /users/login
+2025-10-19T22:37:23.970Z [info]: Logged in bob
+2025-10-19T22:37:23.981Z [info]: Incoming POST : /users/login
+2025-10-19T22:37:24.063Z [info]: Logged in bob
+2025-10-19T22:37:47.371Z [info]: Incoming POST : /users/login
+2025-10-19T22:37:47.452Z [info]: Logged in bob
+2025-10-19T22:41:02.018Z [info]: Incoming POST : /users/login
+2025-10-19T22:41:02.166Z [info]: Logged in bob
+2025-10-19T22:41:27.425Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T22:41:30.983Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:41:31.030Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:41:31.070Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T22:41:31.153Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:41:31.194Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:41:31.643Z [info]: Fetching weather from:
+2025-10-19T22:41:31.650Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:41:31.761Z [info]: Fetching weather from:
+2025-10-19T22:41:38.671Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:41:38.676Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:41:38.740Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T22:41:38.752Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:41:38.761Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T22:41:39.187Z [info]: Fetching weather from:
+2025-10-19T22:41:39.194Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T22:41:39.306Z [info]: Fetching weather from:
+2025-10-19T22:41:49.374Z [info]: Incoming GET : /users/username/alice
+2025-10-19T22:41:49.392Z [info]: Retrieved user: alice
+2025-10-19T22:41:59.416Z [info]: Incoming POST : /trips
+2025-10-19T22:41:59.503Z [info]: Created trip: Example Name
+2025-10-19T22:41:59.565Z [info]: Incoming GET : /trips/
+2025-10-19T22:41:59.567Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:41:59.608Z [info]: Incoming GET : /trips/
+2025-10-19T22:41:59.609Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T22:42:20.732Z [info]: Incoming POST : /users/login
+2025-10-19T22:42:20.807Z [info]: Logged in bob
+2025-10-19T22:42:20.858Z [info]: Incoming POST : /users/login
+2025-10-19T22:42:20.937Z [info]: Logged in bob
+2025-10-19T22:45:10.034Z [info]: Incoming POST : /users/login
+2025-10-19T22:45:10.134Z [info]: Incoming POST : /users/login
+2025-10-19T22:45:10.253Z [info]: Logged in bob
+2025-10-19T22:45:10.323Z [info]: Logged in bob
+2025-10-19T22:45:25.378Z [info]: Incoming POST : /users/login
+2025-10-19T22:45:25.463Z [info]: Logged in bob
+2025-10-19T22:45:25.475Z [info]: Incoming POST : /users/login
+2025-10-19T22:45:25.561Z [info]: Logged in bob
+2025-10-19T22:46:23.428Z [info]: Incoming POST : /users/login
+2025-10-19T22:46:23.508Z [info]: Logged in bob
+2025-10-19T22:46:23.520Z [info]: Incoming POST : /users/login
+2025-10-19T22:46:23.609Z [info]: Logged in bob
+2025-10-19T22:47:21.633Z [info]: Incoming POST : /users/login
+2025-10-19T22:47:21.719Z [info]: Logged in bob
+2025-10-19T22:47:23.609Z [info]: Incoming POST : /users/login
+2025-10-19T22:47:23.688Z [warn]: Login failed: invalid password for bob
+2025-10-19T22:47:24.493Z [info]: Incoming POST : /users/login
+2025-10-19T22:47:24.493Z [warn]: Missing username or password
+2025-10-19T22:47:25.603Z [info]: Incoming POST : /users/login
+2025-10-19T22:47:25.690Z [info]: Logged in bob
+2025-10-19T22:47:26.644Z [info]: Incoming POST : /users/login
+2025-10-19T22:47:26.723Z [info]: Logged in bob
+2025-10-19T22:47:29.439Z [info]: Incoming POST : /users/register
+2025-10-19T22:47:29.464Z [warn]: Invalid username or password
+2025-10-19T23:12:18.817Z [info]: Incoming POST : /users/login
+2025-10-19T23:12:18.896Z [info]: Incoming POST : /users/login
+2025-10-19T23:12:18.983Z [info]: Logged in bob
+2025-10-19T23:12:19.104Z [info]: Logged in bob
+2025-10-19T23:12:52.340Z [info]: Incoming POST : /users/login
+2025-10-19T23:12:52.426Z [info]: Logged in bob
+2025-10-19T23:12:52.435Z [info]: Incoming POST : /users/login
+2025-10-19T23:12:52.527Z [info]: Logged in bob
+2025-10-19T23:12:59.074Z [info]: Incoming POST : /users/login
+2025-10-19T23:12:59.160Z [info]: Logged in bob
+2025-10-19T23:12:59.277Z [info]: Incoming GET : /trips/
+2025-10-19T23:12:59.279Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:13:00.725Z [info]: Incoming POST : /users/login
+2025-10-19T23:13:00.814Z [info]: Logged in bob
+2025-10-19T23:13:02.454Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:13:03.053Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:03.057Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:03.164Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:03.174Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:03.187Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:03.652Z [info]: Fetching weather from:
+2025-10-19T23:13:03.659Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:03.761Z [info]: Fetching weather from:
+2025-10-19T23:13:03.874Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:03.886Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:03.912Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:03.917Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:03.937Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:04.027Z [info]: Fetching weather from:
+2025-10-19T23:13:04.064Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:04.175Z [info]: Fetching weather from:
+2025-10-19T23:13:05.213Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:13:05.266Z [warn]: User not found: nonexistent
+2025-10-19T23:13:47.648Z [info]: Incoming POST : /users/login
+2025-10-19T23:13:47.730Z [info]: Logged in bob
+2025-10-19T23:13:47.740Z [info]: Incoming POST : /users/login
+2025-10-19T23:13:47.831Z [info]: Logged in bob
+2025-10-19T23:13:49.011Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:13:49.283Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:49.287Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:49.386Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:49.396Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:49.445Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:49.831Z [info]: Fetching weather from:
+2025-10-19T23:13:49.841Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:49.949Z [info]: Fetching weather from:
+2025-10-19T23:13:50.258Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:50.271Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:50.298Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:50.301Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:50.315Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:50.413Z [info]: Fetching weather from:
+2025-10-19T23:13:50.420Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:50.522Z [info]: Fetching weather from:
+2025-10-19T23:13:51.664Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:13:51.682Z [info]: Retrieved user: alice
+2025-10-19T23:13:51.757Z [info]: Incoming POST : /trips
+2025-10-19T23:13:51.821Z [info]: Created trip: Example Name
+2025-10-19T23:13:51.890Z [info]: Incoming GET : /trips/
+2025-10-19T23:13:51.892Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:13:51.934Z [info]: Incoming GET : /trips/
+2025-10-19T23:13:51.937Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:13:53.851Z [info]: Incoming POST : /users/login
+2025-10-19T23:13:53.932Z [info]: Logged in bob
+2025-10-19T23:13:54.060Z [info]: Incoming GET : /trips/
+2025-10-19T23:13:54.062Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:13:54.101Z [info]: Incoming GET : /trips/
+2025-10-19T23:13:54.103Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:13:55.914Z [info]: Incoming POST : /users/login
+2025-10-19T23:13:56.000Z [info]: Logged in bob
+2025-10-19T23:13:57.636Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:13:58.016Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:58.023Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:58.074Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:13:58.107Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:58.186Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:58.627Z [info]: Fetching weather from:
+2025-10-19T23:13:58.632Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:58.745Z [info]: Fetching weather from:
+2025-10-19T23:13:58.759Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:58.769Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:58.796Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:13:58.829Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:13:58.831Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:58.942Z [info]: Fetching weather from:
+2025-10-19T23:13:58.949Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:13:59.061Z [info]: Fetching weather from:
+2025-10-19T23:14:00.123Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:14:00.148Z [warn]: User not found: nonexistent
+2025-10-19T23:14:04.720Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:04.804Z [info]: Logged in bob
+2025-10-19T23:14:04.850Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:04.935Z [info]: Logged in bob
+2025-10-19T23:14:07.433Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:07.512Z [info]: Logged in bob
+2025-10-19T23:14:07.521Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:07.601Z [info]: Logged in bob
+2025-10-19T23:14:08.872Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:14:09.275Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:14:09.281Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:09.315Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:14:09.346Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:09.393Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:09.838Z [info]: Fetching weather from:
+2025-10-19T23:14:09.845Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:09.957Z [info]: Fetching weather from:
+2025-10-19T23:14:10.077Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:10.087Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:14:10.122Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:14:10.227Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:10.260Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:10.371Z [info]: Fetching weather from:
+2025-10-19T23:14:10.382Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:10.497Z [info]: Fetching weather from:
+2025-10-19T23:14:11.448Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:14:11.467Z [info]: Retrieved user: alice
+2025-10-19T23:14:11.541Z [info]: Incoming POST : /trips
+2025-10-19T23:14:11.583Z [info]: Created trip: Example Name
+2025-10-19T23:14:11.654Z [info]: Incoming GET : /trips/
+2025-10-19T23:14:11.656Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:14:11.687Z [info]: Incoming GET : /trips/
+2025-10-19T23:14:11.689Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:14:13.568Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:13.662Z [info]: Logged in bob
+2025-10-19T23:14:13.787Z [info]: Incoming GET : /trips/
+2025-10-19T23:14:13.789Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:14:13.831Z [info]: Incoming GET : /trips/
+2025-10-19T23:14:13.833Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:14:15.316Z [info]: Incoming POST : /users/login
+2025-10-19T23:14:15.403Z [info]: Logged in bob
+2025-10-19T23:14:17.355Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:14:17.720Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:14:17.727Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:17.763Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:14:17.786Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:17.844Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:18.282Z [info]: Fetching weather from:
+2025-10-19T23:14:18.290Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:18.403Z [info]: Fetching weather from:
+2025-10-19T23:14:18.414Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:18.426Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:14:18.457Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:14:18.484Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:18.497Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:14:18.601Z [info]: Fetching weather from:
+2025-10-19T23:14:18.610Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:14:18.729Z [info]: Fetching weather from:
+2025-10-19T23:14:19.843Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:14:19.863Z [warn]: User not found: nonexistent
+2025-10-19T23:15:25.891Z [info]: Incoming POST : /users/login
+2025-10-19T23:15:25.974Z [info]: Logged in bob
+2025-10-19T23:15:25.985Z [info]: Incoming POST : /users/login
+2025-10-19T23:15:26.076Z [info]: Logged in bob
+2025-10-19T23:15:27.747Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:15:28.076Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:15:28.083Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:28.118Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:15:28.152Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:28.197Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:28.641Z [info]: Fetching weather from:
+2025-10-19T23:15:28.648Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:28.760Z [info]: Fetching weather from:
+2025-10-19T23:15:28.978Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:28.989Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:15:29.024Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:29.029Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:15:29.032Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:29.143Z [info]: Fetching weather from:
+2025-10-19T23:15:29.183Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:29.291Z [info]: Fetching weather from:
+2025-10-19T23:15:30.368Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:15:30.391Z [info]: Retrieved user: alice
+2025-10-19T23:15:30.460Z [info]: Incoming POST : /trips
+2025-10-19T23:15:30.498Z [info]: Created trip: Example Name
+2025-10-19T23:15:30.565Z [info]: Incoming GET : /trips/
+2025-10-19T23:15:30.567Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:15:33.042Z [info]: Incoming POST : /users/login
+2025-10-19T23:15:33.127Z [info]: Logged in bob
+2025-10-19T23:15:33.241Z [info]: Incoming GET : /trips/
+2025-10-19T23:15:33.242Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:15:33.281Z [info]: Incoming GET : /trips/
+2025-10-19T23:15:33.283Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:15:34.762Z [info]: Incoming POST : /users/login
+2025-10-19T23:15:34.845Z [info]: Logged in bob
+2025-10-19T23:15:36.492Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:15:36.828Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:15:36.832Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:36.874Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:15:36.944Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:37.011Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:37.440Z [info]: Fetching weather from:
+2025-10-19T23:15:37.449Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:37.568Z [info]: Fetching weather from:
+2025-10-19T23:15:37.578Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:37.589Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:15:37.607Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:15:37.623Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:15:37.650Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:37.753Z [info]: Fetching weather from:
+2025-10-19T23:15:37.760Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:15:37.861Z [info]: Fetching weather from:
+2025-10-19T23:15:38.927Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:15:38.946Z [warn]: User not found: nonexistent
+2025-10-19T23:16:47.711Z [info]: Incoming POST : /users/login
+2025-10-19T23:16:47.795Z [info]: Logged in bob
+2025-10-19T23:17:08.981Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:17:11.750Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:17:11.754Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:17:11.820Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:17:11.833Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:17:11.837Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:17:12.320Z [info]: Fetching weather from:
+2025-10-19T23:17:12.326Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:17:12.435Z [info]: Fetching weather from:
+2025-10-19T23:17:16.678Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:17:16.691Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:17:16.739Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:17:16.741Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:17:16.821Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:17:17.243Z [info]: Fetching weather from:
+2025-10-19T23:17:17.252Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:17:17.378Z [info]: Fetching weather from:
+2025-10-19T23:17:28.581Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:17:28.599Z [info]: Retrieved user: alice
+2025-10-19T23:17:30.784Z [info]: Incoming POST : /trips
+2025-10-19T23:17:30.904Z [info]: Created trip: Example Trip with alice
+2025-10-19T23:17:30.968Z [info]: Incoming GET : /trips/
+2025-10-19T23:17:30.970Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:17:31.029Z [info]: Incoming GET : /trips/
+2025-10-19T23:17:31.031Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:17:43.922Z [info]: Incoming POST : /users/logout
+2025-10-19T23:17:48.833Z [info]: Incoming POST : /users/login
+2025-10-19T23:17:48.923Z [info]: Logged in alice
+2025-10-19T23:17:51.851Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:17:51.871Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:17:51.911Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.936Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.943Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.963Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.971Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.991Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:51.996Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:17:52.010Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:04.084Z [info]: Incoming PATCH : /trips/invites/76a3b2e9-e1ee-470e-b1d1-48697556feed
+2025-10-19T23:18:04.128Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:18:07.092Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:07.093Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:18:07.181Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:07.184Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:18:27.779Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:27.861Z [info]: Logged in bob
+2025-10-19T23:18:29.644Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:18:30.107Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:18:30.113Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:30.173Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:30.268Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:30.280Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:18:30.708Z [info]: Fetching weather from:
+2025-10-19T23:18:30.715Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:30.828Z [info]: Fetching weather from:
+2025-10-19T23:18:31.398Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:31.401Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:18:31.447Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:31.451Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:31.475Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:18:31.555Z [info]: Fetching weather from:
+2025-10-19T23:18:31.602Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:31.712Z [info]: Fetching weather from:
+2025-10-19T23:18:32.856Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:18:32.875Z [info]: Retrieved user: alice
+2025-10-19T23:18:32.981Z [info]: Incoming POST : /trips
+2025-10-19T23:18:33.025Z [info]: Created trip: Example Trip with alice
+2025-10-19T23:18:33.118Z [info]: Incoming POST : /users/logout
+2025-10-19T23:18:33.271Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:33.280Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:34.228Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:34.310Z [info]: Logged in alice
+2025-10-19T23:18:34.389Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:34.469Z [info]: Logged in alice
+2025-10-19T23:18:34.559Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:18:34.587Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:18:34.614Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:18:34.754Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.766Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.772Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.785Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.792Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.805Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.807Z [info]: Incoming PATCH : /trips/invites/61b18756-045b-4d4e-8c59-915bdf7e7b06
+2025-10-19T23:18:34.815Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:34.836Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:18:35.034Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:18:35.149Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:35.151Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:18:35.266Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:35.268Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:18:50.063Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:50.145Z [info]: Logged in bob
+2025-10-19T23:18:50.154Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:50.235Z [info]: Logged in bob
+2025-10-19T23:18:52.150Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:18:52.406Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:18:52.415Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:52.454Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:18:52.493Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:52.540Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:52.967Z [info]: Fetching weather from:
+2025-10-19T23:18:52.973Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:53.084Z [info]: Fetching weather from:
+2025-10-19T23:18:53.294Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:53.305Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:18:53.325Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:18:53.334Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:18:53.355Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:53.460Z [info]: Fetching weather from:
+2025-10-19T23:18:53.468Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:18:53.576Z [info]: Fetching weather from:
+2025-10-19T23:18:54.654Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:18:54.668Z [info]: Retrieved user: alice
+2025-10-19T23:18:54.747Z [info]: Incoming POST : /trips
+2025-10-19T23:18:54.787Z [info]: Created trip: Example Name
+2025-10-19T23:18:54.855Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:54.857Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:18:54.909Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:54.911Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:18:56.953Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:57.038Z [info]: Logged in bob
+2025-10-19T23:18:57.151Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:57.152Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:18:57.199Z [info]: Incoming GET : /trips/
+2025-10-19T23:18:57.201Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:18:58.585Z [info]: Incoming POST : /users/login
+2025-10-19T23:18:58.669Z [info]: Logged in bob
+2025-10-19T23:19:00.265Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:19:00.607Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:00.611Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:00.650Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:00.683Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:00.735Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:01.158Z [info]: Fetching weather from:
+2025-10-19T23:19:01.166Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:01.276Z [info]: Fetching weather from:
+2025-10-19T23:19:01.372Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:01.412Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:01.489Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:01.527Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:01.631Z [info]: Fetching weather from:
+2025-10-19T23:19:01.637Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:01.672Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:01.779Z [info]: Fetching weather from:
+2025-10-19T23:19:02.756Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:19:02.772Z [warn]: User not found: nonexistent
+2025-10-19T23:19:04.143Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:04.227Z [info]: Logged in bob
+2025-10-19T23:19:05.944Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:19:06.174Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:06.177Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:06.218Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:06.239Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:06.285Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:06.710Z [info]: Fetching weather from:
+2025-10-19T23:19:06.716Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:06.829Z [info]: Fetching weather from:
+2025-10-19T23:19:06.923Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:06.934Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:06.971Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:06.974Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:06.985Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:07.084Z [info]: Fetching weather from:
+2025-10-19T23:19:07.093Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:07.206Z [info]: Fetching weather from:
+2025-10-19T23:19:08.096Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:19:08.117Z [info]: Retrieved user: alice
+2025-10-19T23:19:08.188Z [info]: Incoming POST : /trips
+2025-10-19T23:19:08.240Z [info]: Created trip: Example Trip with alice
+2025-10-19T23:19:08.318Z [info]: Incoming POST : /users/logout
+2025-10-19T23:19:08.355Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:08.357Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:08.398Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:08.400Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:09.135Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:09.214Z [info]: Logged in alice
+2025-10-19T23:19:09.258Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:09.345Z [info]: Logged in alice
+2025-10-19T23:19:09.360Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:09.392Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:09.425Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:09.430Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.445Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.453Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.474Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.480Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.491Z [info]: Incoming PATCH : /trips/invites/967cba57-f3bc-4808-b6d5-3f2034fecd26
+2025-10-19T23:19:09.494Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.500Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.524Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.529Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.544Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.549Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.563Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:09.607Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:09.683Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:09.685Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:19:09.813Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:09.814Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:19:29.678Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:29.768Z [info]: Logged in bob
+2025-10-19T23:19:29.782Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:29.871Z [info]: Logged in bob
+2025-10-19T23:19:31.954Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:19:32.370Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:32.373Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:32.416Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:32.433Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:32.481Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:32.907Z [info]: Fetching weather from:
+2025-10-19T23:19:32.916Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:33.025Z [info]: Fetching weather from:
+2025-10-19T23:19:33.243Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:33.258Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:33.277Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:33.301Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:33.303Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:33.407Z [info]: Fetching weather from:
+2025-10-19T23:19:33.416Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:33.528Z [info]: Fetching weather from:
+2025-10-19T23:19:34.643Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:19:34.667Z [info]: Retrieved user: alice
+2025-10-19T23:19:34.737Z [info]: Incoming POST : /trips
+2025-10-19T23:19:34.780Z [info]: Created trip: Example Name
+2025-10-19T23:19:34.859Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:34.861Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:34.905Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:34.907Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:37.267Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:37.356Z [info]: Logged in bob
+2025-10-19T23:19:37.499Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:37.500Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:37.541Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:37.543Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:38.718Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:38.808Z [info]: Logged in bob
+2025-10-19T23:19:40.506Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:19:40.885Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:40.890Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:40.932Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:40.967Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:41.037Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:41.472Z [info]: Fetching weather from:
+2025-10-19T23:19:41.479Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:41.581Z [info]: Fetching weather from:
+2025-10-19T23:19:41.722Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:41.738Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:41.760Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:41.782Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:41.859Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:41.965Z [info]: Fetching weather from:
+2025-10-19T23:19:41.975Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:42.081Z [info]: Fetching weather from:
+2025-10-19T23:19:43.255Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-19T23:19:43.294Z [warn]: User not found: nonexistent
+2025-10-19T23:19:44.768Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:44.877Z [info]: Logged in bob
+2025-10-19T23:19:46.628Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-19T23:19:46.901Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:46.904Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:47.003Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:47.021Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:47.027Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-19T23:19:47.451Z [info]: Fetching weather from:
+2025-10-19T23:19:47.459Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:47.564Z [info]: Fetching weather from:
+2025-10-19T23:19:47.770Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:47.783Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:47.803Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-19T23:19:47.831Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:47.860Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-19T23:19:47.939Z [info]: Fetching weather from:
+2025-10-19T23:19:47.949Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-19T23:19:48.057Z [info]: Fetching weather from:
+2025-10-19T23:19:48.998Z [info]: Incoming GET : /users/username/alice
+2025-10-19T23:19:49.021Z [info]: Retrieved user: alice
+2025-10-19T23:19:49.107Z [info]: Incoming POST : /trips
+2025-10-19T23:19:49.163Z [info]: Created trip: Example Trip with alice
+2025-10-19T23:19:49.244Z [info]: Incoming POST : /users/logout
+2025-10-19T23:19:49.282Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:49.284Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:49.329Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:49.331Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-19T23:19:50.070Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:50.152Z [info]: Logged in alice
+2025-10-19T23:19:50.193Z [info]: Incoming POST : /users/login
+2025-10-19T23:19:50.285Z [info]: Logged in alice
+2025-10-19T23:19:50.310Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:50.339Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:50.397Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.401Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:50.419Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.428Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.449Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.451Z [info]: Incoming PATCH : /trips/invites/00d86a24-73d0-4dc2-b7b6-4b13d1ef0fdd
+2025-10-19T23:19:50.456Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.470Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.479Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.498Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.504Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.517Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.523Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.538Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.544Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.558Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.566Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.583Z [info]: Incoming GET : /trips/invites
+2025-10-19T23:19:50.587Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-19T23:19:50.719Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:50.721Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-19T23:19:50.899Z [info]: Incoming GET : /trips/
+2025-10-19T23:19:50.901Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T00:54:37.573Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:37.655Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:37.782Z [info]: Logged in bob
+2025-10-20T00:54:37.857Z [info]: Logged in bob
+2025-10-20T00:54:39.451Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:54:39.866Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:39.869Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:39.900Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:39.933Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:39.958Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:40.400Z [info]: Fetching weather from:
+2025-10-20T00:54:40.410Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:40.519Z [info]: Fetching weather from:
+2025-10-20T00:54:40.728Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:40.739Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:40.765Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:40.768Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:40.780Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:40.883Z [info]: Fetching weather from:
+2025-10-20T00:54:40.891Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:41.001Z [info]: Fetching weather from:
+2025-10-20T00:54:42.119Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:54:42.134Z [info]: Retrieved user: alice
+2025-10-20T00:54:42.212Z [info]: Incoming POST : /trips
+2025-10-20T00:54:42.324Z [info]: Created trip: Example Name
+2025-10-20T00:54:42.389Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:42.391Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:54:44.661Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:44.746Z [info]: Logged in bob
+2025-10-20T00:54:44.855Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:44.856Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:54:44.901Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:44.903Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:54:45.967Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:46.052Z [info]: Logged in bob
+2025-10-20T00:54:47.647Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:54:47.984Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:47.990Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:48.036Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:48.053Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:48.107Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:48.551Z [info]: Fetching weather from:
+2025-10-20T00:54:48.558Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:48.669Z [info]: Fetching weather from:
+2025-10-20T00:54:48.679Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:48.683Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:48.714Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:48.719Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:48.732Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:48.827Z [info]: Fetching weather from:
+2025-10-20T00:54:48.834Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:48.944Z [info]: Fetching weather from:
+2025-10-20T00:54:49.996Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T00:54:50.011Z [warn]: User not found: nonexistent
+2025-10-20T00:54:51.049Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:51.134Z [info]: Logged in bob
+2025-10-20T00:54:52.817Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:54:53.046Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:53.050Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:53.090Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:54:53.198Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:53.214Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:53.653Z [info]: Fetching weather from:
+2025-10-20T00:54:53.661Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:53.767Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:53.770Z [info]: Fetching weather from:
+2025-10-20T00:54:53.773Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:53.812Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:54:53.818Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:54:53.846Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:53.957Z [info]: Fetching weather from:
+2025-10-20T00:54:53.964Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:54:54.077Z [info]: Fetching weather from:
+2025-10-20T00:54:55.123Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:54:55.151Z [info]: Retrieved user: alice
+2025-10-20T00:54:55.246Z [info]: Incoming POST : /trips
+2025-10-20T00:54:55.300Z [info]: Created trip: Example Trip with alice
+2025-10-20T00:54:55.373Z [info]: Incoming POST : /users/logout
+2025-10-20T00:54:55.536Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:55.545Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:56.376Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:56.459Z [info]: Logged in alice
+2025-10-20T00:54:56.507Z [info]: Incoming POST : /users/login
+2025-10-20T00:54:56.591Z [info]: Logged in alice
+2025-10-20T00:54:56.645Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:54:56.668Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:54:56.696Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:54:56.842Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.855Z [info]: Incoming PATCH : /trips/invites/8f3b0cd7-c06f-407c-b5fe-65405716d8c6
+2025-10-20T00:54:56.875Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.884Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.903Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.911Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.926Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.932Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.943Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.949Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.962Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.968Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.982Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:56.991Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.003Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.010Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.018Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:54:57.021Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.028Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.041Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.048Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.062Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:54:57.294Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:57.296Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T00:54:57.478Z [info]: Incoming GET : /trips/
+2025-10-20T00:54:57.481Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T00:55:11.818Z [info]: Incoming POST : /users/logout
+2025-10-20T00:55:18.220Z [info]: Incoming POST : /users/login
+2025-10-20T00:55:18.300Z [info]: Logged in alice
+2025-10-20T00:55:20.848Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:55:20.876Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:55:20.927Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.938Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.944Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.959Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.965Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.980Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.987Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:20.999Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.006Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.019Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.025Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.039Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.045Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.059Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.067Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:21.079Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:55:29.178Z [info]: Incoming PATCH : /trips/invites/b1c984fd-d12d-4eac-9d71-10b837841911
+2025-10-20T00:55:29.218Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:55:29.879Z [info]: Incoming PATCH : /trips/invites/c93aef36-d4f2-4f82-a213-3abb8f7b93ec
+2025-10-20T00:55:29.951Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:55:31.364Z [info]: Incoming PATCH : /trips/invites/cad35b78-410c-4ea6-82a9-3caf63e088a0
+2025-10-20T00:55:31.395Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:55:31.951Z [info]: Incoming PATCH : /trips/invites/d02fd359-d2c8-4951-b773-2e86fe67806a
+2025-10-20T00:55:31.990Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:56:43.373Z [info]: Incoming POST : /users/login
+2025-10-20T00:56:43.448Z [info]: Logged in bob
+2025-10-20T00:57:01.605Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:57:03.499Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:57:03.556Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:03.771Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:57:04.063Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:04.073Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:04.511Z [info]: Fetching weather from:
+2025-10-20T00:57:04.518Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:04.628Z [info]: Fetching weather from:
+2025-10-20T00:57:10.484Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:57:10.490Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:10.564Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:10.572Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:57:10.579Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:11.019Z [info]: Fetching weather from:
+2025-10-20T00:57:11.025Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:11.135Z [info]: Fetching weather from:
+2025-10-20T00:57:19.622Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:57:19.637Z [info]: Retrieved user: alice
+2025-10-20T00:57:20.302Z [info]: Incoming POST : /trips
+2025-10-20T00:57:20.419Z [info]: Created trip: Example Trip
+2025-10-20T00:57:20.480Z [info]: Incoming GET : /trips/
+2025-10-20T00:57:20.481Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:57:20.525Z [info]: Incoming GET : /trips/
+2025-10-20T00:57:20.527Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:57:24.711Z [info]: Incoming POST : /users/logout
+2025-10-20T00:57:30.484Z [info]: Incoming POST : /users/login
+2025-10-20T00:57:30.571Z [info]: Logged in alice
+2025-10-20T00:57:33.412Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:33.444Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:33.462Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:33.472Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:33.480Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:33.490Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:37.236Z [info]: Incoming PATCH : /trips/invites/1640e782-be34-4b18-8212-3449a8e8a7cc
+2025-10-20T00:57:37.274Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:52.798Z [info]: Incoming POST : /users/login
+2025-10-20T00:57:52.799Z [warn]: Missing username or password
+2025-10-20T00:57:53.437Z [info]: Incoming POST : /users/login
+2025-10-20T00:57:53.516Z [info]: Logged in bob
+2025-10-20T00:57:55.118Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:57:55.383Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:57:55.430Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:55.472Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:57:55.537Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:55.573Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:56.005Z [info]: Fetching weather from:
+2025-10-20T00:57:56.011Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:56.123Z [info]: Fetching weather from:
+2025-10-20T00:57:56.378Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:56.389Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:57:56.415Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:57:56.442Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:57:56.489Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:56.597Z [info]: Fetching weather from:
+2025-10-20T00:57:56.604Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:57:56.713Z [info]: Fetching weather from:
+2025-10-20T00:57:57.840Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:57:57.851Z [info]: Retrieved user: alice
+2025-10-20T00:57:57.966Z [info]: Incoming POST : /trips
+2025-10-20T00:57:58.003Z [info]: Created trip: Example Trip
+2025-10-20T00:57:58.147Z [info]: Incoming POST : /users/logout
+2025-10-20T00:57:58.175Z [info]: Incoming GET : /trips/
+2025-10-20T00:57:58.177Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:57:58.223Z [info]: Incoming GET : /trips/
+2025-10-20T00:57:58.224Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:57:59.124Z [info]: Incoming POST : /users/login
+2025-10-20T00:57:59.245Z [info]: Logged in alice
+2025-10-20T00:57:59.256Z [info]: Incoming POST : /users/login
+2025-10-20T00:57:59.384Z [info]: Logged in alice
+2025-10-20T00:57:59.408Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:59.475Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:59.504Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:57:59.647Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:59.662Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:59.669Z [info]: Incoming PATCH : /trips/invites/17640b36-f7ce-4b7f-9863-de0835b0934f
+2025-10-20T00:57:59.675Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:59.691Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:57:59.781Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:58:23.663Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:23.663Z [warn]: Missing username or password
+2025-10-20T00:58:24.318Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:24.410Z [info]: Logged in bob
+2025-10-20T00:58:26.001Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:58:27.563Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:58:27.566Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:58:27.622Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:58:27.646Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:58:27.721Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:58:28.155Z [info]: Fetching weather from:
+2025-10-20T00:58:28.160Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:58:28.273Z [info]: Fetching weather from:
+2025-10-20T00:58:28.525Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:58:28.532Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:58:28.556Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:58:28.571Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:58:28.625Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:58:28.736Z [info]: Fetching weather from:
+2025-10-20T00:58:28.743Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:58:28.855Z [info]: Fetching weather from:
+2025-10-20T00:58:29.970Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:58:29.990Z [info]: Retrieved user: alice
+2025-10-20T00:58:30.091Z [info]: Incoming POST : /trips
+2025-10-20T00:58:30.139Z [info]: Created trip: Example Trip
+2025-10-20T00:58:30.249Z [info]: Incoming POST : /users/logout
+2025-10-20T00:58:30.380Z [info]: Incoming GET : /trips/
+2025-10-20T00:58:30.388Z [info]: Incoming GET : /trips/
+2025-10-20T00:58:31.275Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:31.356Z [info]: Logged in alice
+2025-10-20T00:58:31.428Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:31.528Z [info]: Logged in alice
+2025-10-20T00:58:31.581Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:58:31.605Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:58:31.649Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:58:31.763Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:58:31.781Z [info]: Incoming PATCH : /trips/invites/dd8ac8d3-dd74-4996-b52c-c6a72f0512af
+2025-10-20T00:58:31.785Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:58:31.792Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:58:31.810Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:58:31.936Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:58:52.644Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:52.724Z [info]: Logged in bob
+2025-10-20T00:58:54.553Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:54.632Z [warn]: Login failed: invalid password for bob
+2025-10-20T00:58:55.419Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:55.419Z [warn]: Missing username or password
+2025-10-20T00:58:56.520Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:56.602Z [info]: Logged in bob
+2025-10-20T00:58:57.570Z [info]: Incoming POST : /users/login
+2025-10-20T00:58:57.655Z [info]: Logged in bob
+2025-10-20T00:59:01.075Z [info]: Incoming POST : /users/register
+2025-10-20T00:59:01.096Z [warn]: Invalid username or password
+2025-10-20T00:59:06.767Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:06.853Z [info]: Logged in bob
+2025-10-20T00:59:12.740Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:12.823Z [info]: Logged in bob
+2025-10-20T00:59:12.950Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:12.952Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:12.987Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:12.988Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:14.005Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:14.089Z [info]: Logged in bob
+2025-10-20T00:59:15.680Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:59:16.674Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:16.677Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:16.721Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:17.364Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:17.397Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:17.407Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:17.837Z [info]: Fetching weather from:
+2025-10-20T00:59:18.146Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:19.586Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T00:59:19.597Z [warn]: User not found: nonexistent
+2025-10-20T00:59:19.611Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:19.656Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:19.692Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:19.767Z [info]: Fetching weather from:
+2025-10-20T00:59:19.776Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:19.887Z [info]: Fetching weather from:
+2025-10-20T00:59:21.193Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:21.279Z [info]: Logged in bob
+2025-10-20T00:59:22.991Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:59:23.772Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:23.780Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:23.813Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:23.847Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:23.867Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:23.953Z [info]: Fetching weather from:
+2025-10-20T00:59:23.961Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:24.071Z [info]: Fetching weather from:
+2025-10-20T00:59:24.519Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:24.528Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:24.562Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:25.018Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:25.020Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:25.124Z [info]: Fetching weather from:
+2025-10-20T00:59:25.638Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:59:25.654Z [info]: Retrieved user: alice
+2025-10-20T00:59:25.730Z [info]: Incoming POST : /trips
+2025-10-20T00:59:25.789Z [info]: Created trip: Example Trip with alice
+2025-10-20T00:59:25.854Z [info]: Incoming POST : /users/logout
+2025-10-20T00:59:25.883Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:25.885Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:25.938Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:25.948Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:25.950Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:26.052Z [info]: Fetching weather from:
+2025-10-20T00:59:26.643Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:26.725Z [info]: Logged in alice
+2025-10-20T00:59:26.767Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:26.852Z [info]: Logged in alice
+2025-10-20T00:59:26.876Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:59:26.922Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:59:26.951Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:59:26.962Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:59:26.972Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:59:26.981Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:59:26.992Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T00:59:27.017Z [info]: Incoming PATCH : /trips/invites/a57a9fbf-39aa-4fd0-b9c1-ad40cbd63f02
+2025-10-20T00:59:27.063Z [info]: Incoming GET : /trips/invites
+2025-10-20T00:59:27.143Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:27.144Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T00:59:27.249Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:27.251Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T00:59:27.719Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:27.719Z [warn]: Missing username or password
+2025-10-20T00:59:28.369Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:28.457Z [info]: Logged in bob
+2025-10-20T00:59:30.010Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T00:59:30.457Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:30.463Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:30.511Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T00:59:30.521Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:30.592Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:31.024Z [info]: Fetching weather from:
+2025-10-20T00:59:31.032Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:31.143Z [info]: Fetching weather from:
+2025-10-20T00:59:31.309Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:31.318Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:31.345Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T00:59:31.352Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:31.356Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T00:59:31.457Z [info]: Fetching weather from:
+2025-10-20T00:59:31.556Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T00:59:31.665Z [info]: Fetching weather from:
+2025-10-20T00:59:32.485Z [info]: Incoming GET : /users/username/alice
+2025-10-20T00:59:32.505Z [info]: Retrieved user: alice
+2025-10-20T00:59:32.585Z [info]: Incoming POST : /trips
+2025-10-20T00:59:32.625Z [info]: Created trip: Example Trip
+2025-10-20T00:59:32.703Z [info]: Incoming POST : /users/logout
+2025-10-20T00:59:32.727Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:32.730Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:32.772Z [info]: Incoming GET : /trips/
+2025-10-20T00:59:32.774Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T00:59:33.496Z [info]: Incoming POST : /users/login
+2025-10-20T00:59:33.579Z [info]: Logged in alice
+2025-10-20T01:00:36.715Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:36.802Z [info]: Logged in bob
+2025-10-20T01:00:36.811Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:36.904Z [info]: Logged in bob
+2025-10-20T01:00:38.450Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:00:38.875Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:38.879Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:39.041Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:39.273Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:39.284Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:39.732Z [info]: Fetching weather from:
+2025-10-20T01:00:39.747Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:39.810Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:39.818Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:39.860Z [info]: Fetching weather from:
+2025-10-20T01:00:39.927Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:40.119Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:40.123Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:40.233Z [info]: Fetching weather from:
+2025-10-20T01:00:40.241Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:40.353Z [info]: Fetching weather from:
+2025-10-20T01:00:41.448Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:00:41.458Z [info]: Retrieved user: alice
+2025-10-20T01:00:41.565Z [info]: Incoming POST : /trips
+2025-10-20T01:00:41.599Z [info]: Created trip: Example Name
+2025-10-20T01:00:41.727Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:41.729Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:41.772Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:41.773Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:43.539Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:43.681Z [info]: Logged in bob
+2025-10-20T01:00:43.839Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:43.840Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:43.891Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:43.893Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:44.886Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:44.973Z [info]: Logged in bob
+2025-10-20T01:00:46.559Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:00:47.189Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:47.194Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:47.282Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:47.294Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:47.307Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:47.738Z [info]: Fetching weather from:
+2025-10-20T01:00:47.746Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:47.857Z [info]: Fetching weather from:
+2025-10-20T01:00:47.990Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:48.001Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:48.024Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:48.044Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:48.062Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:48.152Z [info]: Fetching weather from:
+2025-10-20T01:00:48.159Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:48.270Z [info]: Fetching weather from:
+2025-10-20T01:00:49.348Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T01:00:49.367Z [warn]: User not found: nonexistent
+2025-10-20T01:00:50.364Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:50.448Z [info]: Logged in bob
+2025-10-20T01:00:52.128Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:00:52.437Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:52.440Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:52.534Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:52.585Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:52.595Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:53.024Z [info]: Fetching weather from:
+2025-10-20T01:00:53.031Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:53.142Z [info]: Fetching weather from:
+2025-10-20T01:00:53.229Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:53.239Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:53.277Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:00:53.385Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:53.419Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:53.525Z [info]: Fetching weather from:
+2025-10-20T01:00:53.532Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:53.644Z [info]: Fetching weather from:
+2025-10-20T01:00:54.386Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:00:54.399Z [info]: Retrieved user: alice
+2025-10-20T01:00:54.484Z [info]: Incoming POST : /trips
+2025-10-20T01:00:54.527Z [info]: Created trip: Example Trip with alice
+2025-10-20T01:00:54.605Z [info]: Incoming POST : /users/logout
+2025-10-20T01:00:54.625Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:54.626Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:54.672Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:54.673Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:00:55.382Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:55.457Z [info]: Logged in alice
+2025-10-20T01:00:55.510Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:55.600Z [info]: Logged in alice
+2025-10-20T01:00:55.614Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:00:55.640Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:00:55.675Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.679Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:00:55.686Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.694Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.706Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.713Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.729Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.735Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.743Z [info]: Incoming PATCH : /trips/invites/52c5b454-93f5-4a34-8eb0-04caa6bc4413
+2025-10-20T01:00:55.747Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:00:55.835Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:00:55.891Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:55.893Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:00:55.941Z [info]: Incoming GET : /trips/
+2025-10-20T01:00:55.943Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:00:56.797Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:56.797Z [warn]: Missing username or password
+2025-10-20T01:00:57.440Z [info]: Incoming POST : /users/login
+2025-10-20T01:00:57.518Z [info]: Logged in bob
+2025-10-20T01:00:59.024Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:00:59.275Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:59.279Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:59.349Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:00:59.359Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:59.363Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:00:59.799Z [info]: Fetching weather from:
+2025-10-20T01:00:59.805Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:00:59.920Z [info]: Fetching weather from:
+2025-10-20T01:01:00.221Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:01:00.234Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:01:00.273Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:01:00.277Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:01:00.306Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:01:00.411Z [info]: Fetching weather from:
+2025-10-20T01:01:00.435Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:01:00.548Z [info]: Fetching weather from:
+2025-10-20T01:01:01.445Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:01:01.465Z [info]: Retrieved user: alice
+2025-10-20T01:01:01.544Z [info]: Incoming POST : /trips
+2025-10-20T01:01:01.587Z [info]: Created trip: Example Trip
+2025-10-20T01:01:01.671Z [info]: Incoming POST : /users/logout
+2025-10-20T01:01:01.692Z [info]: Incoming GET : /trips/
+2025-10-20T01:01:01.694Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:01:01.745Z [info]: Incoming GET : /trips/
+2025-10-20T01:01:01.747Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:01:02.451Z [info]: Incoming POST : /users/login
+2025-10-20T01:01:02.527Z [info]: Logged in alice
+2025-10-20T01:03:39.591Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:39.741Z [info]: Logged in bob
+2025-10-20T01:03:39.744Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:39.828Z [info]: Logged in bob
+2025-10-20T01:03:41.463Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:03:41.850Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:41.852Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:41.896Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:41.905Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:41.952Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:42.393Z [info]: Fetching weather from:
+2025-10-20T01:03:42.400Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:42.512Z [info]: Fetching weather from:
+2025-10-20T01:03:42.732Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:42.743Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:42.762Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:42.780Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:42.787Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:42.895Z [info]: Fetching weather from:
+2025-10-20T01:03:42.905Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:43.013Z [info]: Fetching weather from:
+2025-10-20T01:03:44.087Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:03:44.103Z [info]: Retrieved user: alice
+2025-10-20T01:03:44.183Z [info]: Incoming POST : /trips
+2025-10-20T01:03:44.279Z [info]: Created trip: Example Name
+2025-10-20T01:03:44.339Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:44.340Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:03:46.102Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:46.187Z [info]: Logged in bob
+2025-10-20T01:03:46.290Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:46.292Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:03:46.333Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:46.335Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:03:47.332Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:47.418Z [info]: Logged in bob
+2025-10-20T01:03:49.026Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:03:49.363Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:49.369Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:49.407Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:49.824Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:49.835Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:50.076Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:50.081Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:50.114Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:50.270Z [info]: Fetching weather from:
+2025-10-20T01:03:50.276Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:50.387Z [info]: Fetching weather from:
+2025-10-20T01:03:50.393Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:50.423Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:50.514Z [info]: Fetching weather from:
+2025-10-20T01:03:50.521Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:50.624Z [info]: Fetching weather from:
+2025-10-20T01:03:51.652Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T01:03:51.665Z [warn]: User not found: nonexistent
+2025-10-20T01:03:52.674Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:52.763Z [info]: Logged in bob
+2025-10-20T01:03:54.453Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:03:54.687Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:54.690Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:54.724Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:54.755Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:54.763Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:03:55.194Z [info]: Fetching weather from:
+2025-10-20T01:03:55.201Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:55.312Z [info]: Fetching weather from:
+2025-10-20T01:03:55.425Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:55.446Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:55.466Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:03:55.490Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:03:55.536Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:55.648Z [info]: Fetching weather from:
+2025-10-20T01:03:55.654Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:03:55.765Z [info]: Fetching weather from:
+2025-10-20T01:03:56.625Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:03:56.639Z [info]: Retrieved user: alice
+2025-10-20T01:03:56.727Z [info]: Incoming POST : /trips
+2025-10-20T01:03:56.765Z [info]: Created trip: Example Trip with alice
+2025-10-20T01:03:56.841Z [info]: Incoming POST : /users/logout
+2025-10-20T01:03:56.868Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:56.869Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:03:56.908Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:56.910Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:03:57.637Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:57.720Z [info]: Logged in alice
+2025-10-20T01:03:57.758Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:57.848Z [info]: Logged in alice
+2025-10-20T01:03:57.861Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:03:57.883Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:03:57.903Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:03:57.951Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:57.967Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:57.975Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:57.985Z [info]: Incoming PATCH : /trips/invites/4c89f9c4-4ab7-43cd-8fd7-cce18182d630
+2025-10-20T01:03:57.989Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:57.995Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.016Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.022Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.035Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.042Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.055Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.062Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.084Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:03:58.087Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.092Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.106Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.112Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.133Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:03:58.203Z [info]: Incoming GET : /trips/
+2025-10-20T01:03:58.204Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:03:59.096Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:59.096Z [warn]: Missing username or password
+2025-10-20T01:03:59.730Z [info]: Incoming POST : /users/login
+2025-10-20T01:03:59.816Z [info]: Logged in bob
+2025-10-20T01:04:01.374Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:04:01.630Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:04:01.633Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:04:01.677Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:04:01.694Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:04:01.741Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:04:02.144Z [info]: Fetching weather from:
+2025-10-20T01:04:02.152Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:04:02.262Z [info]: Fetching weather from:
+2025-10-20T01:04:02.460Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:04:02.470Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:04:02.493Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:04:02.501Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:04:02.513Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:04:02.615Z [info]: Fetching weather from:
+2025-10-20T01:04:02.623Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:04:02.732Z [info]: Fetching weather from:
+2025-10-20T01:04:03.613Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:04:03.628Z [info]: Retrieved user: alice
+2025-10-20T01:04:03.705Z [info]: Incoming POST : /trips
+2025-10-20T01:04:03.766Z [info]: Created trip: Example Trip
+2025-10-20T01:04:03.820Z [info]: Incoming POST : /users/logout
+2025-10-20T01:04:03.857Z [info]: Incoming GET : /trips/
+2025-10-20T01:04:03.859Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:04:03.906Z [info]: Incoming GET : /trips/
+2025-10-20T01:04:03.908Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:04:04.617Z [info]: Incoming POST : /users/login
+2025-10-20T01:04:04.699Z [info]: Logged in alice
+2025-10-20T01:05:20.662Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:20.745Z [info]: Logged in bob
+2025-10-20T01:05:20.754Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:20.834Z [info]: Logged in bob
+2025-10-20T01:05:22.421Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:05:22.875Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:22.880Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:22.920Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:22.952Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:23.001Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:23.411Z [info]: Fetching weather from:
+2025-10-20T01:05:23.418Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:23.526Z [info]: Fetching weather from:
+2025-10-20T01:05:23.751Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:23.760Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:23.783Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:23.786Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:23.798Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:23.890Z [info]: Fetching weather from:
+2025-10-20T01:05:23.897Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:24.002Z [info]: Fetching weather from:
+2025-10-20T01:05:25.117Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:05:25.139Z [info]: Retrieved user: alice
+2025-10-20T01:05:25.212Z [info]: Incoming POST : /trips
+2025-10-20T01:05:25.248Z [info]: Created trip: Example Name
+2025-10-20T01:05:25.312Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:25.315Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:25.362Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:25.364Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:27.079Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:27.172Z [info]: Logged in bob
+2025-10-20T01:05:27.290Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:27.291Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:27.331Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:27.332Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:28.337Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:28.426Z [info]: Logged in bob
+2025-10-20T01:05:30.015Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:05:30.346Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:30.354Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:30.438Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:30.459Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:30.511Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:30.952Z [info]: Fetching weather from:
+2025-10-20T01:05:30.958Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:31.076Z [info]: Fetching weather from:
+2025-10-20T01:05:31.097Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:31.105Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:31.136Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:31.151Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:31.222Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:31.327Z [info]: Fetching weather from:
+2025-10-20T01:05:31.334Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:31.444Z [info]: Fetching weather from:
+2025-10-20T01:05:32.481Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T01:05:32.505Z [warn]: User not found: nonexistent
+2025-10-20T01:05:33.498Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:33.585Z [info]: Logged in bob
+2025-10-20T01:05:35.269Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:05:35.507Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:35.511Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:35.551Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:35.565Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:35.612Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:36.051Z [info]: Fetching weather from:
+2025-10-20T01:05:36.058Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:36.181Z [info]: Fetching weather from:
+2025-10-20T01:05:36.236Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:36.245Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:36.273Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:36.283Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:36.293Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:36.396Z [info]: Fetching weather from:
+2025-10-20T01:05:36.406Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:36.514Z [info]: Fetching weather from:
+2025-10-20T01:05:37.401Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:05:37.417Z [info]: Retrieved user: alice
+2025-10-20T01:05:37.502Z [info]: Incoming POST : /trips
+2025-10-20T01:05:37.537Z [info]: Created trip: Example Trip with alice
+2025-10-20T01:05:37.615Z [info]: Incoming POST : /users/logout
+2025-10-20T01:05:37.643Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:37.645Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:37.693Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:37.695Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:38.400Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:38.481Z [info]: Logged in alice
+2025-10-20T01:05:43.380Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:43.381Z [warn]: Missing username or password
+2025-10-20T01:05:44.027Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:44.140Z [info]: Logged in bob
+2025-10-20T01:05:45.674Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:05:45.909Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:45.916Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:45.951Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:05:45.968Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:46.018Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:46.473Z [info]: Fetching weather from:
+2025-10-20T01:05:46.482Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:46.594Z [info]: Fetching weather from:
+2025-10-20T01:05:46.768Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:46.771Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:46.796Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:05:46.809Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:05:46.820Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:46.924Z [info]: Fetching weather from:
+2025-10-20T01:05:46.933Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:05:47.045Z [info]: Fetching weather from:
+2025-10-20T01:05:47.930Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:05:47.944Z [info]: Retrieved user: alice
+2025-10-20T01:05:48.033Z [info]: Incoming POST : /trips
+2025-10-20T01:05:48.071Z [info]: Created trip: Example Trip
+2025-10-20T01:05:48.148Z [info]: Incoming POST : /users/logout
+2025-10-20T01:05:48.164Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:48.166Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:48.207Z [info]: Incoming GET : /trips/
+2025-10-20T01:05:48.209Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:05:48.941Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:49.025Z [info]: Logged in alice
+2025-10-20T01:05:49.078Z [info]: Incoming POST : /users/login
+2025-10-20T01:05:49.170Z [info]: Logged in alice
+2025-10-20T01:05:49.182Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:05:49.218Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:05:49.238Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:05:49.330Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.354Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.361Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.381Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.388Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.401Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.408Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.421Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.427Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.441Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.448Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.470Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.477Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.491Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.496Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.509Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.517Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.538Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.545Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.559Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.565Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.578Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.585Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.621Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.626Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.648Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.654Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:05:49.677Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:10:56.946Z [info]: Incoming POST : /users/login
+2025-10-20T01:10:57.085Z [info]: Logged in bob
+2025-10-20T01:10:57.088Z [info]: Incoming POST : /users/login
+2025-10-20T01:10:57.201Z [info]: Logged in bob
+2025-10-20T01:10:58.829Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:10:59.797Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:10:59.802Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:10:59.874Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:10:59.902Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:10:59.945Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:00.359Z [info]: Fetching weather from:
+2025-10-20T01:11:00.367Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:00.477Z [info]: Fetching weather from:
+2025-10-20T01:11:00.748Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:00.762Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:00.790Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:00.801Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:00.805Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:00.945Z [info]: Fetching weather from:
+2025-10-20T01:11:00.953Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:01.075Z [info]: Fetching weather from:
+2025-10-20T01:11:02.149Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:11:02.170Z [info]: Retrieved user: alice
+2025-10-20T01:11:02.253Z [info]: Incoming POST : /trips
+2025-10-20T01:11:02.425Z [info]: Created trip: Example Name
+2025-10-20T01:11:02.487Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:02.489Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:11:04.268Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:04.349Z [info]: Logged in bob
+2025-10-20T01:11:04.449Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:04.450Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:11:04.496Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:04.498Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:11:05.492Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:05.570Z [info]: Logged in bob
+2025-10-20T01:11:07.173Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:11:08.614Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:08.623Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:08.662Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:09.239Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:09.249Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:09.504Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:09.509Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:09.535Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:09.589Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:09.683Z [info]: Fetching weather from:
+2025-10-20T01:11:09.690Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:09.815Z [info]: Fetching weather from:
+2025-10-20T01:11:09.820Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:09.929Z [info]: Fetching weather from:
+2025-10-20T01:11:09.935Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:10.047Z [info]: Fetching weather from:
+2025-10-20T01:11:11.126Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T01:11:11.146Z [warn]: User not found: nonexistent
+2025-10-20T01:11:12.558Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:12.640Z [info]: Logged in bob
+2025-10-20T01:11:14.325Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:11:15.736Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:15.740Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:16.217Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:16.228Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:16.347Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:16.661Z [info]: Fetching weather from:
+2025-10-20T01:11:16.669Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:16.779Z [info]: Fetching weather from:
+2025-10-20T01:11:17.055Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:17.064Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:17.091Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:17.122Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:17.164Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:17.272Z [info]: Fetching weather from:
+2025-10-20T01:11:17.279Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:17.381Z [info]: Fetching weather from:
+2025-10-20T01:11:18.449Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:11:18.461Z [info]: Retrieved user: alice
+2025-10-20T01:11:18.573Z [info]: Incoming POST : /trips
+2025-10-20T01:11:18.612Z [info]: Created trip: Example Trip with alice
+2025-10-20T01:11:18.715Z [info]: Incoming POST : /users/logout
+2025-10-20T01:11:19.689Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:19.769Z [info]: Logged in alice
+2025-10-20T01:11:19.823Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:19.910Z [info]: Logged in alice
+2025-10-20T01:11:19.964Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:11:19.987Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:11:20.025Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:11:20.130Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.146Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.153Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.174Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.183Z [info]: Incoming PATCH : /trips/invites/227099a8-c464-4537-a2d4-33fa7abcc06b
+2025-10-20T01:11:20.187Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.204Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.213Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.233Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.241Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.253Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.260Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.272Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:11:20.402Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:11:20.518Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:20.520Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:11:20.587Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:20.589Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:11:25.193Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:25.193Z [warn]: Missing username or password
+2025-10-20T01:11:25.838Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:25.925Z [info]: Logged in bob
+2025-10-20T01:11:27.458Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:11:28.420Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:28.461Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:28.697Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:11:29.040Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:29.079Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:29.329Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:29.384Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:11:29.512Z [info]: Fetching weather from:
+2025-10-20T01:11:29.580Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:29.585Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:29.689Z [info]: Fetching weather from:
+2025-10-20T01:11:30.121Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:11:30.124Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:30.232Z [info]: Fetching weather from:
+2025-10-20T01:11:30.238Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:11:30.341Z [info]: Fetching weather from:
+2025-10-20T01:11:30.431Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:11:30.445Z [info]: Retrieved user: alice
+2025-10-20T01:11:30.525Z [info]: Incoming POST : /trips
+2025-10-20T01:11:30.576Z [info]: Created trip: Example Trip
+2025-10-20T01:11:30.643Z [info]: Incoming POST : /users/logout
+2025-10-20T01:11:30.669Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:30.671Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:11:30.719Z [info]: Incoming GET : /trips/
+2025-10-20T01:11:30.721Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:11:31.432Z [info]: Incoming POST : /users/login
+2025-10-20T01:11:31.516Z [info]: Logged in alice
+2025-10-20T01:12:36.529Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:36.616Z [info]: Logged in bob
+2025-10-20T01:12:36.625Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:36.705Z [info]: Logged in bob
+2025-10-20T01:12:38.284Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:12:38.747Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:38.749Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:38.800Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:38.808Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:38.876Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:39.313Z [info]: Fetching weather from:
+2025-10-20T01:12:39.320Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:39.432Z [info]: Fetching weather from:
+2025-10-20T01:12:39.616Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:39.628Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:39.649Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:39.660Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:39.662Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:39.767Z [info]: Fetching weather from:
+2025-10-20T01:12:39.789Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-28&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:39.906Z [info]: Fetching weather from:
+2025-10-20T01:12:41.135Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:12:41.148Z [info]: Retrieved user: alice
+2025-10-20T01:12:41.230Z [info]: Incoming POST : /trips
+2025-10-20T01:12:41.269Z [info]: Created trip: Example Name
+2025-10-20T01:12:41.349Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:41.351Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:12:43.296Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:43.379Z [info]: Logged in bob
+2025-10-20T01:12:43.494Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:43.495Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:12:43.540Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:43.541Z [info]: Fetching trips for user: bob (ce9b3a6b-f2e5-4596-b10c-067bbf7991dc)
+2025-10-20T01:12:44.961Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:45.042Z [info]: Logged in bob
+2025-10-20T01:12:46.696Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:12:47.063Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:47.066Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:47.102Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:47.135Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:47.208Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:47.643Z [info]: Fetching weather from:
+2025-10-20T01:12:47.650Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:47.759Z [info]: Fetching weather from:
+2025-10-20T01:12:47.828Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:47.838Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:47.865Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:47.884Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:47.931Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:48.046Z [info]: Fetching weather from:
+2025-10-20T01:12:48.054Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:48.162Z [info]: Fetching weather from:
+2025-10-20T01:12:49.201Z [info]: Incoming GET : /users/username/nonexistent
+2025-10-20T01:12:49.215Z [warn]: User not found: nonexistent
+2025-10-20T01:12:50.633Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:50.722Z [info]: Logged in bob
+2025-10-20T01:12:52.422Z [info]: Incoming GET : /ridb/recareas?query=shenandoah
+2025-10-20T01:12:52.674Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:52.677Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:52.703Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:52.721Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:52.763Z [info]: Incoming GET : /ridb/recareas/2933/campgrounds
+2025-10-20T01:12:53.155Z [info]: Fetching weather from:
+2025-10-20T01:12:53.162Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:53.272Z [info]: Fetching weather from:
+2025-10-20T01:12:53.484Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:53.496Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:53.522Z [info]: Incoming GET : /ridb/recareas/2933/coords
+2025-10-20T01:12:53.531Z [info]: Incoming GET : /ridb/recareas/2933/activities
+2025-10-20T01:12:53.543Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:53.646Z [info]: Fetching weather from:
+2025-10-20T01:12:53.655Z [info]: Incoming GET : /weather?latitude=38.492366&longitude=-78.469077&start_date=2025-10-24&end_date=2025-10-27&daily=temperature_2m_max,temperature_2m_min,windspeed_10m_max,precipitation_sum,weathercode
+2025-10-20T01:12:53.766Z [info]: Fetching weather from:
+2025-10-20T01:12:54.996Z [info]: Incoming GET : /users/username/alice
+2025-10-20T01:12:55.011Z [info]: Retrieved user: alice
+2025-10-20T01:12:55.020Z [info]: Incoming POST : /trips
+2025-10-20T01:12:55.046Z [info]: Created trip: Example Trip with alice
+2025-10-20T01:12:55.054Z [info]: Incoming POST : /users/logout
+2025-10-20T01:12:55.125Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:55.133Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:55.814Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:55.898Z [info]: Logged in alice
+2025-10-20T01:12:55.953Z [info]: Incoming POST : /users/login
+2025-10-20T01:12:56.046Z [info]: Logged in alice
+2025-10-20T01:12:56.060Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:12:56.090Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:12:56.119Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:12:56.149Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.164Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.171Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.183Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.192Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.199Z [info]: Incoming PATCH : /trips/invites/93f08a84-c22e-4c1a-97fe-ad846130ca5d
+2025-10-20T01:12:56.202Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.209Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.226Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.232Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.253Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.262Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.273Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.280Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.292Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.298Z [info]: Incoming GET : /users/id/USER%23ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.310Z [info]: Retrieved user: USER#ce9b3a6b-f2e5-4596-b10c-067bbf7991dc
+2025-10-20T01:12:56.342Z [info]: Incoming GET : /trips/invites
+2025-10-20T01:12:56.473Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:56.475Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)
+2025-10-20T01:12:56.595Z [info]: Incoming GET : /trips/
+2025-10-20T01:12:56.598Z [info]: Fetching trips for user: alice (b329bd67-1de4-4c61-9964-960f9ff8d261)

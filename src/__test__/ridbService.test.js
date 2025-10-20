@@ -79,6 +79,30 @@ describe("RIDB Service tests", () => {
       ).rejects.toThrow("RIDB error");
       expect(logger.error).toHaveBeenCalledWith("RIDB error");
     });
+
+    test("should respect the query limit parameter", async () => {
+      const mockData = {
+        RECDATA: [
+          { RecAreaName: "Area 1", RecAreaID: "1" },
+          { RecAreaName: "Area 2", RecAreaID: "2" },
+          { RecAreaName: "Area 3", RecAreaID: "3" },
+          { RecAreaName: "Area 4", RecAreaID: "4" },
+        ],
+      };
+
+      fetch.mockResolvedValueOnce({
+        ok: true,
+        json: async () => mockData,
+      });
+
+      const query = { query: "Park", limit: 2 };
+      await ridbService.getRecAreasByQuery(query);
+
+      expect(fetch).toHaveBeenCalledWith(
+        expect.stringContaining("/recareas?query=Park&limit=2"),
+        expect.any(Object)
+      );
+    });
   });
 
   describe("getActivitiesByRecArea tests", () => {

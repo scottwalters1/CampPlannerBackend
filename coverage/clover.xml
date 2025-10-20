@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1760839076104" clover="3.2.0">
-  <project timestamp="1760839076104" name="All files">
-    <metrics statements="158" coveredstatements="156" conditionals="70" coveredconditionals="65" methods="25" coveredmethods="24" elements="253" coveredelements="245" complexity="0" loc="158" ncloc="158" packages="3" files="6" classes="6"/>
+<coverage generated="1760894142633" clover="3.2.0">
+  <project timestamp="1760894142633" name="All files">
+    <metrics statements="158" coveredstatements="156" conditionals="70" coveredconditionals="66" methods="25" coveredmethods="24" elements="253" coveredelements="246" complexity="0" loc="158" ncloc="158" packages="3" files="6" classes="6"/>
     <package name="model">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="User.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\model\User.js">
@@ -13,22 +13,22 @@
       </file>
     </package>
     <package name="service">
-      <metrics statements="148" coveredstatements="148" conditionals="66" coveredconditionals="65" methods="22" coveredmethods="22"/>
+      <metrics statements="148" coveredstatements="148" conditionals="66" coveredconditionals="66" methods="22" coveredmethods="22"/>
       <file name="ridbService.js" path="C:\Users\scott\revature\training\projects\CampPlannerBackend\src\service\ridbService.js">
-        <metrics statements="45" coveredstatements="45" conditionals="10" coveredconditionals="9" methods="8" coveredmethods="8"/>
+        <metrics statements="45" coveredstatements="45" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
         <line num="36" count="3" type="stmt"/>
         <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="39" count="1" type="stmt"/>
